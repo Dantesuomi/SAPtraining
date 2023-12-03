@@ -1,0 +1,5 @@
+SELECT * FROM {product
+          JOIN ArticleApprovalStatus ON {product:approvalstatus} = {ArticleApprovalStatus:pk}}
+WHERE {ArticleApprovalStatus:code} = 'approved'
+
+SELECT * FROM {ArticleApprovalStatus}

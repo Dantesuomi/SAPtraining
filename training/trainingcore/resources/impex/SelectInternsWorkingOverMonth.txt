@@ -1,0 +1,1 @@
+SELECT * FROM {Intern} WHERE {creationtime} < NOW() - INTERVAL 1 MONTH

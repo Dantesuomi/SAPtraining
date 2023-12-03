@@ -1,0 +1,1 @@
+SELECT * FROM {Intern} WHERE {monthAtOrganization} > 1
