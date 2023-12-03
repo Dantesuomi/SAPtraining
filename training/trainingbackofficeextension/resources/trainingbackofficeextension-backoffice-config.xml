@@ -7,7 +7,7 @@
 	<context component="explorer-tree" module="trainingbackoffice" merge-by="module">
 		<n:explorer-tree xmlns:n="http://www.hybris.com/cockpitng/config/explorertree">
 			<n:navigation-node id="hmc_treenode_user" merge-mode="append">
-				<n:type-node code="Intern" id="Interns"/>
+				<n:type-node code="Intern" id="Intern"/>
 			</n:navigation-node>
 		</n:explorer-tree>
 	</context>
