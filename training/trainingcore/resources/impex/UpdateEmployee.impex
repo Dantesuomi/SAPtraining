@@ -1,0 +1,3 @@
+UPDATE Employee; uid[unique=true]; name
+;customer.support@nakano.com;Nakano Support
+;customer.support@ichikawa.com;Ichikawa Support
