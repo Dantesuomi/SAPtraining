@@ -538,4 +538,8 @@
 		<property name="itemCleanupHooks" ref="csTicketRetentionHooks"/>
 		<property name="ticketBusinessService" ref="ticketBusinessService"/>
 	</bean>
+
+	<!-- Calculate amount of months in organization action-->
+	<bean id="trainingMonthAtOrganizationHandler" class="de.hybris.training.core.attributehandlers.TrainingMonthAtOrganizationHandler"/>
+
 </beans>

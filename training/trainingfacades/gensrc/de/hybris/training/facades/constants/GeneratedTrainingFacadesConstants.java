@@ -1,7 +1,7 @@
 /*
  * ----------------------------------------------------------------
  * --- WARNING: THIS FILE IS GENERATED AND WILL BE OVERWRITTEN! ---
- * --- Generated at 2023. gada 2. dec. 15:52:30                 ---
+ * --- Generated at 2023. gada 2. dec. 18:35:54                 ---
  * ----------------------------------------------------------------
  *  
  * Copyright (c) 2023 SAP SE or an SAP affiliate company. All rights reserved.

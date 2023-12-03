@@ -1,0 +1,5 @@
+INSERT_UPDATE Intern; name;uid[unique=true];description;collegeName;projectName
+;Noah Davis;noahdavis;College student;Rigas Tehniska Universitate;Hybris
+;Jackson Taylor;jacksontaylor;College student;Latvijas Universitate;Hana
+;Zoe Mitchell;zoemitchell;Teacher;Business College;Bootcamp
+;Pepe;pepe;Teacher;Business College;Bootcamp

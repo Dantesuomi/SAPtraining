@@ -1,7 +1,7 @@
 /*
  * ----------------------------------------------------------------
  * --- WARNING: THIS FILE IS GENERATED AND WILL BE OVERWRITTEN! ---
- * --- Generated at 2023. gada 2. dec. 17:47:43                 ---
+ * --- Generated at 2023. gada 2. dec. 18:35:54                 ---
  * ----------------------------------------------------------------
  *  
  * Copyright (c) 2023 SAP SE or an SAP affiliate company. All rights reserved.
@@ -22,8 +22,6 @@ import java.util.Map;
 @SuppressWarnings({"deprecation","unused","cast"})
 public abstract class GeneratedIntern extends Employee
 {
-	/** Qualifier of the <code>Intern.monthAtOrganization</code> attribute **/
-	public static final String MONTHATORGANIZATION = "monthAtOrganization";
 	/** Qualifier of the <code>Intern.collegeName</code> attribute **/
 	public static final String COLLEGENAME = "collegeName";
 	/** Qualifier of the <code>Intern.projectName</code> attribute **/
@@ -32,7 +30,6 @@ public abstract class GeneratedIntern extends Employee
 	static
 	{
 		final Map<String, AttributeMode> tmp = new HashMap<String, AttributeMode>(Employee.DEFAULT_INITIAL_ATTRIBUTES);
-		tmp.put(MONTHATORGANIZATION, AttributeMode.INITIAL);
 		tmp.put(COLLEGENAME, AttributeMode.INITIAL);
 		tmp.put(PROJECTNAME, AttributeMode.INITIAL);
 		DEFAULT_INITIAL_ATTRIBUTES = Collections.unmodifiableMap(tmp);
@@ -77,79 +74,6 @@ public abstract class GeneratedIntern extends Employee
 	public void setCollegeName(final String value)
 	{
 		setCollegeName( getSession().getSessionContext(), value );
-	}
-	
-	/**
-	 * <i>Generated method</i> - Getter of the <code>Intern.monthAtOrganization</code> attribute.
-	 * @return the monthAtOrganization
-	 */
-	public Integer getMonthAtOrganization(final SessionContext ctx)
-	{
-		return (Integer)getProperty( ctx, MONTHATORGANIZATION);
-	}
-	
-	/**
-	 * <i>Generated method</i> - Getter of the <code>Intern.monthAtOrganization</code> attribute.
-	 * @return the monthAtOrganization
-	 */
-	public Integer getMonthAtOrganization()
-	{
-		return getMonthAtOrganization( getSession().getSessionContext() );
-	}
-	
-	/**
-	 * <i>Generated method</i> - Getter of the <code>Intern.monthAtOrganization</code> attribute. 
-	 * @return the monthAtOrganization
-	 */
-	public int getMonthAtOrganizationAsPrimitive(final SessionContext ctx)
-	{
-		Integer value = getMonthAtOrganization( ctx );
-		return value != null ? value.intValue() : 0;
-	}
-	
-	/**
-	 * <i>Generated method</i> - Getter of the <code>Intern.monthAtOrganization</code> attribute. 
-	 * @return the monthAtOrganization
-	 */
-	public int getMonthAtOrganizationAsPrimitive()
-	{
-		return getMonthAtOrganizationAsPrimitive( getSession().getSessionContext() );
-	}
-	
-	/**
-	 * <i>Generated method</i> - Setter of the <code>Intern.monthAtOrganization</code> attribute. 
-	 * @param value the monthAtOrganization
-	 */
-	public void setMonthAtOrganization(final SessionContext ctx, final Integer value)
-	{
-		setProperty(ctx, MONTHATORGANIZATION,value);
-	}
-	
-	/**
-	 * <i>Generated method</i> - Setter of the <code>Intern.monthAtOrganization</code> attribute. 
-	 * @param value the monthAtOrganization
-	 */
-	public void setMonthAtOrganization(final Integer value)
-	{
-		setMonthAtOrganization( getSession().getSessionContext(), value );
-	}
-	
-	/**
-	 * <i>Generated method</i> - Setter of the <code>Intern.monthAtOrganization</code> attribute. 
-	 * @param value the monthAtOrganization
-	 */
-	public void setMonthAtOrganization(final SessionContext ctx, final int value)
-	{
-		setMonthAtOrganization( ctx,Integer.valueOf( value ) );
-	}
-	
-	/**
-	 * <i>Generated method</i> - Setter of the <code>Intern.monthAtOrganization</code> attribute. 
-	 * @param value the monthAtOrganization
-	 */
-	public void setMonthAtOrganization(final int value)
-	{
-		setMonthAtOrganization( getSession().getSessionContext(), value );
 	}
 	
 	/**

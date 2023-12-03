@@ -167,8 +167,8 @@
             <itemtype code="Intern" extends="Employee" autocreate="true" generate="true">
                 <attributes>
                     <attribute qualifier="monthAtOrganization" type="java.lang.Integer" autocreate="true" generate="true">
-                        <modifiers read="true" write="true" /> <!--write="false" search="true"-->
-                        <persistence type="property"/> <!--attributeHandler="TrainingMonthAtOrganizationHandler"-->
+                        <modifiers read="true" write="false" search="true"/>
+                        <persistence type="dynamic" attributeHandler="trainingMonthAtOrganizationHandler"/>
                     </attribute>
                     <attribute qualifier="collegeName" type="java.lang.String" autocreate="true" generate="true">
                         <modifiers read="true" write="true"/>
