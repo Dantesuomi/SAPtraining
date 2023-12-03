@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+ Copyright (c) 2020 SAP SE or an SAP affiliate company. All rights reserved
+-->
+<config xmlns="http://www.hybris.com/cockpit/config"
+		xmlns:list-view="http://www.hybris.com/cockpitng/component/listView">
+	<context component="explorer-tree" module="trainingbackoffice" merge-by="module">
+		<n:explorer-tree xmlns:n="http://www.hybris.com/cockpitng/config/explorertree">
+			<n:navigation-node id="hmc_treenode_user" merge-mode="append">
+				<n:type-node code="Intern" id="Interns"/>
+			</n:navigation-node>
+		</n:explorer-tree>
+	</context>
+	<context type="Intern" component="listview" merge-by="type">
+		<list-view:list-view>
+			<list-view:column qualifier="uid"/>
+			<list-view:column qualifier="description"/>
+			<list-view:column qualifier="collegeName"/>
+			<list-view:column qualifier="monthAtOrganization"/>
+			<list-view:column qualifier="projectName"/>
+		</list-view:list-view>
+	</context>
+</config>
