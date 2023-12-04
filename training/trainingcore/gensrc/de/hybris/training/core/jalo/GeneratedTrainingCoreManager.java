@@ -1,7 +1,7 @@
 /*
  * ----------------------------------------------------------------
  * --- WARNING: THIS FILE IS GENERATED AND WILL BE OVERWRITTEN! ---
- * --- Generated at 2023. gada 2. dec. 18:35:54                 ---
+ * --- Generated at 2023. gada 3. dec. 22:31:52                 ---
  * ----------------------------------------------------------------
  *  
  * Copyright (c) 2023 SAP SE or an SAP affiliate company. All rights reserved.
@@ -25,6 +25,7 @@ import de.hybris.training.core.jalo.ApparelSizeVariantProduct;
 import de.hybris.training.core.jalo.ApparelStyleVariantProduct;
 import de.hybris.training.core.jalo.ElectronicsColorVariantProduct;
 import de.hybris.training.core.jalo.Intern;
+import de.hybris.training.core.jalo.UnapprovedProductListCronJob;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
@@ -190,6 +191,32 @@ public abstract class GeneratedTrainingCoreManager extends Extension
 	public Intern createIntern(final Map attributeValues)
 	{
 		return createIntern( getSession().getSessionContext(), attributeValues );
+	}
+	
+	public UnapprovedProductListCronJob createUnapprovedProductListCronJob(final SessionContext ctx, final Map attributeValues)
+	{
+		try
+		{
+			ComposedType type = getTenant().getJaloConnection().getTypeManager().getComposedType( TrainingCoreConstants.TC.UNAPPROVEDPRODUCTLISTCRONJOB );
+			return (UnapprovedProductListCronJob)type.newInstance( ctx, attributeValues );
+		}
+		catch( JaloGenericCreationException e)
+		{
+			final Throwable cause = e.getCause();
+			throw (cause instanceof RuntimeException ?
+			(RuntimeException)cause
+			:
+			new JaloSystemException( cause, cause.getMessage(), e.getErrorCode() ) );
+		}
+		catch( JaloBusinessException e )
+		{
+			throw new JaloSystemException( e ,"error creating UnapprovedProductListCronJob : "+e.getMessage(), 0 );
+		}
+	}
+	
+	public UnapprovedProductListCronJob createUnapprovedProductListCronJob(final Map attributeValues)
+	{
+		return createUnapprovedProductListCronJob( getSession().getSessionContext(), attributeValues );
 	}
 	
 	@Override

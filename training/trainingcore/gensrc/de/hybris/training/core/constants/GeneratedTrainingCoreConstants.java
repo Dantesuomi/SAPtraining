@@ -1,7 +1,7 @@
 /*
  * ----------------------------------------------------------------
  * --- WARNING: THIS FILE IS GENERATED AND WILL BE OVERWRITTEN! ---
- * --- Generated at 2023. gada 2. dec. 18:35:54                 ---
+ * --- Generated at 2023. gada 3. dec. 22:31:52                 ---
  * ----------------------------------------------------------------
  *  
  * Copyright (c) 2023 SAP SE or an SAP affiliate company. All rights reserved.
@@ -24,6 +24,7 @@ public class GeneratedTrainingCoreConstants
 		public static final String ELECTRONICSCOLORVARIANTPRODUCT = "ElectronicsColorVariantProduct".intern();
 		public static final String INTERN = "Intern".intern();
 		public static final String SWATCHCOLORENUM = "SwatchColorEnum".intern();
+		public static final String UNAPPROVEDPRODUCTLISTCRONJOB = "UnapprovedProductListCronJob".intern();
 		public static final String VEHICLETYPE = "VehicleType".intern();
 	}
 	public static class Attributes

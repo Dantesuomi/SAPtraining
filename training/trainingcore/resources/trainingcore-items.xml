@@ -181,5 +181,11 @@
                 </attributes>
             </itemtype>
         </typegroup>
+
+        <typegroup name="CronJobs">
+            <itemtype code="UnapprovedProductListCronJob" generate="true" jaloclass="de.hybris.training.core.jalo.UnapprovedProductListCronJob" extends="CronJob" autocreate="true">
+                <attributes/>
+            </itemtype>
+        </typegroup>
     </itemtypes>
 </items>

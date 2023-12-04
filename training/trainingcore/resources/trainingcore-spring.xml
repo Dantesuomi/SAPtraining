@@ -542,4 +542,8 @@
 	<!-- Calculate amount of months in organization action-->
 	<bean id="trainingMonthAtOrganizationHandler" class="de.hybris.training.core.attributehandlers.TrainingMonthAtOrganizationHandler"/>
 
+	<!-- Log unapproved product list cron job -->
+	<bean id="unapprovedProductListJobPerformable" class="de.hybris.training.core.job.UnapprovedProductListJobPerformable" parent="abstractJobPerformable">
+		<property name="flexibleSearchService" ref="flexibleSearchService" />
+	</bean>
 </beans>
