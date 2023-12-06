@@ -182,4 +182,12 @@
 	</bean>
 
 	<bean id="genderData" class="de.hybris.training.facades.product.data.GenderData" scope="prototype"/>
+
+<!--	<bean id="skuConverter" class="de.hybris.training.facades.converters.SkuConverter">
+		<property name="trainingSkuService" ref="trainingSkuService"/>
+	</bean>-->
+
+	<bean id="trainingStockSkuFacade" class="de.hybris.training.facades.training.stocksku.impl.TrainingStockSkuFacadeImpl">
+		<property name="trainingProductSkuDao" ref="trainingProductSkuDao"/>
+	</bean>
 </beans>
