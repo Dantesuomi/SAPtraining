@@ -9,11 +9,11 @@ public class TrainingSkuData {
 
     private String name;
     private String description;
-    private List<WarehouseModel> warehouseList;
+    private List<WarehouseSku> warehouseList;
     //enum
     private ArticleApprovalStatus statusSKU;
 
-    public TrainingSkuData(String name, String description, List<WarehouseModel> warehouseList, ArticleApprovalStatus statusSKU) {
+    public TrainingSkuData(String name, String description, List<WarehouseSku> warehouseList, ArticleApprovalStatus statusSKU) {
         this.name = name;
         this.description = description;
         this.warehouseList = warehouseList;
@@ -39,11 +39,11 @@ public class TrainingSkuData {
         this.description = description;
     }
 
-    public List<WarehouseModel> getWarehouseList() {
+    public List<WarehouseSku> getWarehouseList() {
         return warehouseList;
     }
 
-    public void setWarehouseList(List<WarehouseModel> warehouseList) {
+    public void setWarehouseList(List<WarehouseSku> warehouseList) {
         this.warehouseList = warehouseList;
     }
 

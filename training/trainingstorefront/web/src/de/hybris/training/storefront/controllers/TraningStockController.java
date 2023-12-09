@@ -1,6 +1,7 @@
 package de.hybris.training.storefront.controllers;
 
 import de.hybris.platform.warehousingfacades.product.data.StockLevelData;
+import de.hybris.training.core.model.TrainingSkuData;
 import de.hybris.training.facades.training.stocksku.TrainingStockSkuFacade;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,8 +18,8 @@ public class TraningStockController  {
     private TrainingStockSkuFacade trainingStockSkuFacade;
 
     @RequestMapping(value = "/lowStockSKU", method = RequestMethod.GET)
-    public List<StockLevelData> getLowStockSku(){
-        List<StockLevelData> stockLevelData = trainingStockSkuFacade.getSkuProductDetails();
+    public List<TrainingSkuData> getLowStockSku(){
+        List<TrainingSkuData> stockLevelData = trainingStockSkuFacade.getSkuProductDetails();
         return stockLevelData;
     }
 }

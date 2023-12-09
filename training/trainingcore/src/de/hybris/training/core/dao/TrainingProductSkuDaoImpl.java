@@ -1,42 +1,29 @@
 package de.hybris.training.core.dao;
 
 import de.hybris.platform.core.model.product.ProductModel;
-import de.hybris.platform.ordersplitting.jalo.StockLevel;
+import de.hybris.platform.ordersplitting.model.StockLevelModel;
 import de.hybris.platform.servicelayer.search.FlexibleSearchQuery;
 import de.hybris.platform.servicelayer.search.FlexibleSearchService;
-import de.hybris.platform.warehousingfacades.product.data.StockLevelData;
-import de.hybris.training.core.model.TrainingSkuData;
 
 import java.util.List;
-//public class TrainingProductSkuDaoImpl extends DefaultGenericDao implements TrainingProductSkuDao
-public class TrainingProductSkuDaoImpl implements TrainingProductSkuDao{
 
-    //remove later
-//    private ProductModel productModel;
-//    private StockLevel stockLevel;
-//
-//    private TrainingSkuData trainingSkuData;
+public class TrainingProductSkuDaoImpl implements TrainingProductSkuDao{
 
     private FlexibleSearchService flexibleSearchService;
 
-//    public TrainingProductSkuDaoImpl(String typecode) {
-//        super(typecode);
-//    }
-
-    //https://apparel-uk.local:9002/trainingstorefront/lowStockSKU
-    @Override
-    public List<StockLevelData> getStockLevelData() {
-
-       // productModel.getStockLevels();
-        //stockLevel.getAvailableAsPrimitive();
-        String stockLevelQuery = "SELECT {pk} FROM {StockLevel} WHERE {Available} < 10";
-        FlexibleSearchQuery flexibleSearchQuery = new FlexibleSearchQuery(stockLevelQuery);
-        flexibleSearchQuery.setCount(10); // testing
-        return flexibleSearchService.<StockLevelData>search(flexibleSearchQuery).getResult();
-    }
-
-    public void setFlexibleSearchService(final FlexibleSearchService flexibleSearchService)
+    public void setFlexibleSearchService ( final FlexibleSearchService flexibleSearchService)
     {
         this.flexibleSearchService = flexibleSearchService;
     }
+
+    @Override
+    public List<ProductModel> getProducts() {
+
+        String productQuery = "SELECT {p.PK} FROM {Product AS p} WHERE" +
+                " EXISTS ({{SELECT * FROM {StockLevel as s} WHERE" +
+                " {s.productCode} = {p.code} AND {s.available} <= '5' }})";
+        FlexibleSearchQuery flexibleSearchQuery = new FlexibleSearchQuery(productQuery);
+        return flexibleSearchService.<ProductModel>search(flexibleSearchQuery).getResult();
+    }
+
 }
