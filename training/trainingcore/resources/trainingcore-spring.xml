@@ -548,10 +548,9 @@
 	</bean>
 
 	<!-- Sku training task -->
-<!--	<bean id="trainingSkuService" class="de.hybris.training.core.service.TrainingSkuServiceImpl">-->
-<!--		<property name="trainingProductSkuDao" ref="trainingProductSkuDao"/>-->
-<!--		<property name="skuConverter" ref="skuConverter"/>-->
-<!--	</bean>-->
+	<bean id="trainingSkuService" class="de.hybris.training.core.service.TrainingSkuServiceImpl">
+		<property name="trainingProductSkuDao" ref="trainingProductSkuDao"/>
+	</bean>
 
 	<bean id="trainingProductSkuDao" class="de.hybris.training.core.dao.TrainingProductSkuDaoImpl">
 		<property name="flexibleSearchService" ref="flexibleSearchService"/>

@@ -188,7 +188,7 @@
 	</bean>
 
 	<bean id="trainingStockSkuFacade" class="de.hybris.training.facades.training.stocksku.impl.TrainingStockSkuFacadeImpl">
-		<property name="trainingProductSkuDao" ref="trainingProductSkuDao"/>
+		<property name="trainingSkuService" ref="trainingSkuService"/>
 		<property name="skuConverter" ref="skuConverter"/>
 	</bean>
 </beans>
