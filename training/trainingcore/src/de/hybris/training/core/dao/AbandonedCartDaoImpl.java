@@ -1,12 +1,12 @@
 package de.hybris.training.core.dao;
 
-import de.hybris.platform.core.model.product.ProductModel;
+import de.hybris.platform.core.model.order.CartModel;
 import de.hybris.platform.servicelayer.search.FlexibleSearchQuery;
 import de.hybris.platform.servicelayer.search.FlexibleSearchService;
 
 import java.util.List;
 
-public class TrainingProductSkuDaoImpl implements TrainingProductSkuDao{
+public class AbandonedCartDaoImpl implements AbandonedCartDao{
 
     private FlexibleSearchService flexibleSearchService;
 
@@ -14,15 +14,10 @@ public class TrainingProductSkuDaoImpl implements TrainingProductSkuDao{
     {
         this.flexibleSearchService = flexibleSearchService;
     }
-
     @Override
-    public List<ProductModel> getProducts() {
-
-        String productQuery = "SELECT {p.PK} FROM {Product AS p} WHERE" +
-                " EXISTS ({{SELECT * FROM {StockLevel as s} WHERE" +
-                " {s.productCode} = {p.code} AND {s.available} <= '5' }})";
+    public List<CartModel> getAllCarts() {
+        String productQuery = "SELECT {pk} FROM {Cart}";
         FlexibleSearchQuery flexibleSearchQuery = new FlexibleSearchQuery(productQuery);
-        return flexibleSearchService.<ProductModel>search(flexibleSearchQuery).getResult();
+        return flexibleSearchService.<CartModel>search(flexibleSearchQuery).getResult();
     }
-
 }

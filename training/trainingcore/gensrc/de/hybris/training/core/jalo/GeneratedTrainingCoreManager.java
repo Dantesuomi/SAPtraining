@@ -1,7 +1,7 @@
 /*
  * ----------------------------------------------------------------
  * --- WARNING: THIS FILE IS GENERATED AND WILL BE OVERWRITTEN! ---
- * --- Generated at 2023. gada 5. dec. 14:25:06                 ---
+ * --- Generated at 2023. gada 10. dec. 21:21:01                ---
  * ----------------------------------------------------------------
  *  
  * Copyright (c) 2023 SAP SE or an SAP affiliate company. All rights reserved.
@@ -23,6 +23,7 @@ import de.hybris.training.core.constants.TrainingCoreConstants;
 import de.hybris.training.core.jalo.ApparelProduct;
 import de.hybris.training.core.jalo.ApparelSizeVariantProduct;
 import de.hybris.training.core.jalo.ApparelStyleVariantProduct;
+import de.hybris.training.core.jalo.CartReminderCronJob;
 import de.hybris.training.core.jalo.ElectronicsColorVariantProduct;
 import de.hybris.training.core.jalo.Intern;
 import de.hybris.training.core.jalo.UnapprovedProductListCronJob;
@@ -139,6 +140,32 @@ public abstract class GeneratedTrainingCoreManager extends Extension
 	public ApparelStyleVariantProduct createApparelStyleVariantProduct(final Map attributeValues)
 	{
 		return createApparelStyleVariantProduct( getSession().getSessionContext(), attributeValues );
+	}
+	
+	public CartReminderCronJob createCartReminderCronJob(final SessionContext ctx, final Map attributeValues)
+	{
+		try
+		{
+			ComposedType type = getTenant().getJaloConnection().getTypeManager().getComposedType( TrainingCoreConstants.TC.CARTREMINDERCRONJOB );
+			return (CartReminderCronJob)type.newInstance( ctx, attributeValues );
+		}
+		catch( JaloGenericCreationException e)
+		{
+			final Throwable cause = e.getCause();
+			throw (cause instanceof RuntimeException ?
+			(RuntimeException)cause
+			:
+			new JaloSystemException( cause, cause.getMessage(), e.getErrorCode() ) );
+		}
+		catch( JaloBusinessException e )
+		{
+			throw new JaloSystemException( e ,"error creating CartReminderCronJob : "+e.getMessage(), 0 );
+		}
+	}
+	
+	public CartReminderCronJob createCartReminderCronJob(final Map attributeValues)
+	{
+		return createCartReminderCronJob( getSession().getSessionContext(), attributeValues );
 	}
 	
 	public ElectronicsColorVariantProduct createElectronicsColorVariantProduct(final SessionContext ctx, final Map attributeValues)

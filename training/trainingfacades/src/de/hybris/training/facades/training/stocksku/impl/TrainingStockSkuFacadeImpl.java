@@ -2,7 +2,6 @@ package de.hybris.training.facades.training.stocksku.impl;
 
 import de.hybris.platform.converters.Converters;
 import de.hybris.platform.core.model.product.ProductModel;
-import de.hybris.training.core.dao.TrainingProductSkuDao;
 import de.hybris.training.core.model.TrainingSkuData;
 import de.hybris.training.core.service.TrainingSkuService;
 import de.hybris.training.facades.converters.SkuConverter;

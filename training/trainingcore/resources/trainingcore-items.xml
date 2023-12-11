@@ -125,7 +125,7 @@
 
                     <attribute autocreate="true" qualifier="marketingEmailFlag" type="java.lang.Boolean">
                         <persistence type="property"/>
-                        <modifiers read="true" write="true" optional="false"/>
+                        <modifiers read="true" write="true" optional="true"/>
                         <description>marketing email flag attribute</description>
                     </attribute>
 
@@ -185,6 +185,19 @@
         <typegroup name="CronJobs">
             <itemtype code="UnapprovedProductListCronJob" generate="true" jaloclass="de.hybris.training.core.jalo.UnapprovedProductListCronJob" extends="CronJob" autocreate="true">
                 <attributes/>
+            </itemtype>
+
+            <itemtype code="CartReminderCronJob" extends="CronJob" jaloclass="de.hybris.training.core.jalo.CartReminderCronJob"
+                      autocreate="true" generate="true">
+                <attributes>
+                    <attribute qualifier="remindDurationHours" type="int">
+                        <modifiers read="true" write="true" optional="false"/>
+                        <defaultvalue>Integer.valueOf(24)</defaultvalue>
+                        <description>Job which sends reminder email to customer about abandoned cart after set amount of time
+                        </description>
+                        <persistence type="property"/>
+                    </attribute>
+                </attributes>
             </itemtype>
         </typegroup>
     </itemtypes>

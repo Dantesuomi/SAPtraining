@@ -556,7 +556,13 @@
 		<property name="flexibleSearchService" ref="flexibleSearchService"/>
 	</bean>
 
-	<!--check if needed-->
-<!--	<bean id="flexibleSearchService" class="de.hybris.platform.servicelayer.search.FlexibleSearchService"/>-->
+	<!--For Abandoned CartReminderJob-->
+	<bean id="abandonedCartDao" class="de.hybris.training.core.dao.AbandonedCartDaoImpl">
+		<property name="flexibleSearchService" ref="flexibleSearchService"/>
+	</bean>
+
+	<bean id="cartReminderCronJob" class="de.hybris.training.core.job.CartReminderCronJob" parent="abstractJobPerformable">
+		<property name="abandonedCartDao" ref="abandonedCartDao"/>
+	</bean>
 
 </beans>
