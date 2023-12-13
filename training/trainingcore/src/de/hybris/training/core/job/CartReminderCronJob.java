@@ -1,12 +1,17 @@
 package de.hybris.training.core.job;
 
+import de.hybris.platform.core.model.order.AbstractOrderEntryModel;
 import de.hybris.platform.core.model.order.CartModel;
+import de.hybris.platform.core.model.user.UserModel;
 import de.hybris.platform.cronjob.enums.CronJobResult;
 import de.hybris.platform.cronjob.enums.CronJobStatus;
 import de.hybris.platform.servicelayer.cronjob.AbstractJobPerformable;
 import de.hybris.platform.servicelayer.cronjob.PerformResult;
+import de.hybris.platform.util.mail.MailUtils;
 import de.hybris.training.core.dao.AbandonedCartDao;
 import de.hybris.training.core.model.CartReminderCronJobModel;
+import org.apache.commons.mail.Email;
+import org.apache.commons.mail.EmailException;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -45,7 +50,14 @@ public class CartReminderCronJob extends AbstractJobPerformable<CartReminderCron
 
                 if (comparisonResult > 0){
                     LOG.info("Cart with code: " + cartModel.getCode() + " is abandoned, sending reminder email");
-                    //TODO: Send email
+
+                    UserModel user = cartModel.getUser();
+                    String userName = user.getName();
+                    String email = user.getUid();
+                    List<AbstractOrderEntryModel> cartItems = cartModel.getEntries();
+
+                    String emailMessage = generateEmail(userName, cartItems);
+                    sendEmail(emailMessage, email);
                 }
 
             }
@@ -55,5 +67,28 @@ public class CartReminderCronJob extends AbstractJobPerformable<CartReminderCron
             LOG.warning(e.getMessage());
             return new PerformResult(CronJobResult.ERROR, CronJobStatus.ABORTED);
         }
+    }
+
+    private String generateEmail(String userName, List<AbstractOrderEntryModel> cartItems) {
+        final StringBuilder mailContentBuilder = new StringBuilder(2000);
+        mailContentBuilder.append("Hi, ").append(userName).append("\n\n");
+        mailContentBuilder.append("You have items in your cart: \n\n");
+        for (AbstractOrderEntryModel entry : cartItems){
+            mailContentBuilder.append(entry.getProduct().getName()).append(" ").append(entry.getBasePrice()).append(entry.getOrder().getCurrency().getSymbol()).append("\n");
+        }
+        return mailContentBuilder.toString();
+    }
+
+    private void sendEmail(final String message, final String recipient) throws EmailException
+    {
+        final String subject = "Items in cart";
+
+        final Email email = MailUtils.getPreConfiguredEmail();
+
+        email.addTo(recipient);
+        email.setSubject(subject);
+        email.setMsg(message);
+        LOG.info("Sending abandonedCartEmail to: " + recipient);
+        email.send();
     }
 }

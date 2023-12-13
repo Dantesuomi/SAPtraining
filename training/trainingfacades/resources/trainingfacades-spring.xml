@@ -191,4 +191,5 @@
 		<property name="trainingSkuService" ref="trainingSkuService"/>
 		<property name="skuConverter" ref="skuConverter"/>
 	</bean>
+
 </beans>

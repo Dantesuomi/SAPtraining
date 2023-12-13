@@ -8,6 +8,7 @@
         <collectiontype code="GenderList" elementtype="Gender" autocreate="true" generate="true" type="list"/>
         <collectiontype code="SwatchColorSet" elementtype="SwatchColorEnum" autocreate="true" generate="true"
                         type="set"/>
+        <collectiontype code="OrderList" elementtype="AbstractOrderEntry" autocreate="true" generate="true" type="list"/>
     </collectiontypes>
 
     <enumtypes>
