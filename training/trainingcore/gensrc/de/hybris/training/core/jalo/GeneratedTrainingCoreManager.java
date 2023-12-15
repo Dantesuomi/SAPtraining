@@ -1,7 +1,7 @@
 /*
  * ----------------------------------------------------------------
  * --- WARNING: THIS FILE IS GENERATED AND WILL BE OVERWRITTEN! ---
- * --- Generated at 2023. gada 12. dec. 13:55:04                ---
+ * --- Generated at 2023. gada 13. dec. 19:03:56                ---
  * ----------------------------------------------------------------
  *  
  * Copyright (c) 2023 SAP SE or an SAP affiliate company. All rights reserved.
@@ -24,6 +24,7 @@ import de.hybris.training.core.jalo.ApparelProduct;
 import de.hybris.training.core.jalo.ApparelSizeVariantProduct;
 import de.hybris.training.core.jalo.ApparelStyleVariantProduct;
 import de.hybris.training.core.jalo.CartReminderCronJob;
+import de.hybris.training.core.jalo.CustomOffersComponent;
 import de.hybris.training.core.jalo.ElectronicsColorVariantProduct;
 import de.hybris.training.core.jalo.Intern;
 import de.hybris.training.core.jalo.UnapprovedProductListCronJob;
@@ -166,6 +167,32 @@ public abstract class GeneratedTrainingCoreManager extends Extension
 	public CartReminderCronJob createCartReminderCronJob(final Map attributeValues)
 	{
 		return createCartReminderCronJob( getSession().getSessionContext(), attributeValues );
+	}
+	
+	public CustomOffersComponent createCustomOffersComponent(final SessionContext ctx, final Map attributeValues)
+	{
+		try
+		{
+			ComposedType type = getTenant().getJaloConnection().getTypeManager().getComposedType( TrainingCoreConstants.TC.CUSTOMOFFERSCOMPONENT );
+			return (CustomOffersComponent)type.newInstance( ctx, attributeValues );
+		}
+		catch( JaloGenericCreationException e)
+		{
+			final Throwable cause = e.getCause();
+			throw (cause instanceof RuntimeException ?
+			(RuntimeException)cause
+			:
+			new JaloSystemException( cause, cause.getMessage(), e.getErrorCode() ) );
+		}
+		catch( JaloBusinessException e )
+		{
+			throw new JaloSystemException( e ,"error creating CustomOffersComponent : "+e.getMessage(), 0 );
+		}
+	}
+	
+	public CustomOffersComponent createCustomOffersComponent(final Map attributeValues)
+	{
+		return createCustomOffersComponent( getSession().getSessionContext(), attributeValues );
 	}
 	
 	public ElectronicsColorVariantProduct createElectronicsColorVariantProduct(final SessionContext ctx, final Map attributeValues)

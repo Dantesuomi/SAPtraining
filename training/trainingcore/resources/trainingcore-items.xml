@@ -9,6 +9,7 @@
         <collectiontype code="SwatchColorSet" elementtype="SwatchColorEnum" autocreate="true" generate="true"
                         type="set"/>
         <collectiontype code="OrderList" elementtype="AbstractOrderEntry" autocreate="true" generate="true" type="list"/>
+        <collectiontype code="CustomOfferLinksList" elementtype="CMSLinkComponent" autocreate="true" generate="true" type="list" />
     </collectiontypes>
 
     <enumtypes>
@@ -197,6 +198,32 @@
                         <description>Job which sends reminder email to customer about abandoned cart after set amount of time
                         </description>
                         <persistence type="property"/>
+                    </attribute>
+                </attributes>
+            </itemtype>
+        </typegroup>
+
+        <typegroup name="CustomOffersComponents">
+            <itemtype code="CustomOffersComponent" extends="SimpleCMSComponent" generate="true" autocreate="true"
+                      jaloclass="de.hybris.training.core.jalo.CustomOffersComponent">
+                <description>Used to display offers on homepage</description>
+                <attributes>
+                    <attribute type="localized:java.lang.String" qualifier="headrerText">
+                        <modifiers read="true" write="true" optional="false" />
+                        <persistence type="property" />
+                    </attribute>
+                    <attribute type="localized:java.lang.String" qualifier="footerText">
+                        <modifiers read="true" write="true" optional="false" />
+                        <persistence type="property" />
+                    </attribute>
+                    <attribute type="Media" qualifier="offerImage">
+                        <modifiers read="true" write="true" optional="false" />
+                        <persistence type="property" />
+                    </attribute>
+                    <attribute type="CustomOfferLinksList" qualifier="offerImageLink">
+                        <persistence type="property" />
+                        <description>List of CMS Link Component</description>
+                        <modifiers read="true" write="true" />
                     </attribute>
                 </attributes>
             </itemtype>
