@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="addon" value="true" />
+        <option name="classPathGen" value="false" />
+        <option name="coreModule" value="true" />
+        <option name="name" value="sapproductconfigb2baddon" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/configurator-complex-products/sapproductconfigb2baddon/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/configurator-complex-products/sapproductconfigb2baddon/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/configurator-complex-products/sapproductconfigb2baddon">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/configurator-complex-products/sapproductconfigb2baddon/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/configurator-complex-products/sapproductconfigb2baddon/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/configurator-complex-products/sapproductconfigb2baddon/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/configurator-complex-products/sapproductconfigb2baddon/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/configurator-complex-products/sapproductconfigb2baddon/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/configurator-complex-products/sapproductconfigb2baddon/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/configurator-complex-products/sapproductconfigb2baddon/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/configurator-complex-products/sapproductconfigb2baddon/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/configurator-complex-products/sapproductconfigb2baddon/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/configurator-complex-products/sapproductconfigb2baddon/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/configurator-complex-products/sapproductconfigb2baddon/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/configurator-complex-products/sapproductconfigb2baddon/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/configurator-complex-products/sapproductconfigb2baddon/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/configurator-complex-products/sapproductconfigb2baddon/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/configurator-complex-products/sapproductconfigb2baddon/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/configurator-complex-products/sapproductconfigb2baddon/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.acceleratorstorefrontcommons" exported="" />
+    <orderEntry type="module" module-name="Hybris.addonsupport" exported="" />
+    <orderEntry type="module" module-name="Hybris.b2bacceleratorfacades" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+    <orderEntry type="module" module-name="Hybris.sapproductconfigb2bservices" exported="" />
+    <orderEntry type="module" module-name="Hybris.sapproductconfigfacades" exported="" />
+  </component>
+</module>

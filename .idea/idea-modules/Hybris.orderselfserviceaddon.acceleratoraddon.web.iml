@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="installedIntoExtensions">
+          <set>
+            <option value="trainingstorefront" />
+            <option value="yacceleratorstorefront" />
+          </set>
+        </option>
+        <option name="name" value="orderselfserviceaddon.web" />
+        <option name="readonly" value="true" />
+        <option name="subModuleType" value="ADDON" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/order-management/orderselfserviceaddon/acceleratoraddon/web/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/order-management/orderselfserviceaddon/acceleratoraddon/web/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/order-management/orderselfserviceaddon/acceleratoraddon/web">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/order-management/orderselfserviceaddon/acceleratoraddon/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/order-management/orderselfserviceaddon/acceleratoraddon/web/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/order-management/orderselfserviceaddon/acceleratoraddon/web/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/order-management/orderselfserviceaddon/acceleratoraddon/web/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/order-management/orderselfserviceaddon/acceleratoraddon/web/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/orderselfserviceaddon/acceleratoraddon/web/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/orderselfserviceaddon/acceleratoraddon/web/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/orderselfserviceaddon/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/orderselfserviceaddon/acceleratoraddon/web/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/orderselfserviceaddon/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/orderselfserviceaddon/acceleratoraddon/web/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/orderselfserviceaddon/acceleratoraddon/web/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/orderselfserviceaddon/acceleratoraddon/web/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/orderselfserviceaddon/acceleratoraddon/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="yacceleratorstorefront - Addon's Target Resources">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="trainingstorefront - Addon's Target Resources">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../training/trainingstorefront/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.orderselfserviceaddon" exported="" />
+    <orderEntry type="module" module-name="Custom.trainingstorefront.web" exported="" />
+    <orderEntry type="module" module-name="Hybris.yacceleratorstorefront.web" exported="" />
+  </component>
+</module>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="name" value="customercouponfacades" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/customer-coupon/customercouponfacades/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/customer-coupon/customercouponfacades/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/customer-coupon/customercouponfacades">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/customer-coupon/customercouponfacades/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/customer-coupon/customercouponfacades/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/customer-coupon/customercouponfacades/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/customer-coupon/customercouponfacades/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/customer-coupon/customercouponfacades/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/customer-coupon/customercouponfacades/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/customer-coupon/customercouponfacades/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/customer-coupon/customercouponfacades/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/customer-coupon/customercouponfacades/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/customer-coupon/customercouponfacades/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/customer-coupon/customercouponfacades/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/customer-coupon/customercouponfacades/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/customer-coupon/customercouponfacades/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/customer-coupon/customercouponfacades/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/customer-coupon/customercouponfacades/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/customer-coupon/customercouponfacades/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.acceleratorfacades" exported="" />
+    <orderEntry type="module" module-name="Hybris.couponfacades" exported="" />
+    <orderEntry type="module" module-name="Hybris.customercouponservices" exported="" />
+    <orderEntry type="module" module-name="Hybris.notificationfacades" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

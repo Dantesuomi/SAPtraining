@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="extGenTemplateExtension" value="true" />
+        <option name="moduleGenName" value="accelerator" />
+        <option name="name" value="yacceleratorstorefront" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+        <option name="webModule" value="true" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.acceleratorstorefrontcommons" exported="" />
+    <orderEntry type="module" module-name="Hybris.adaptivesearchsamplesaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.assistedservicecustomerinterestsaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.assistedservicepromotionaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.assistedservicestorefront" exported="" />
+    <orderEntry type="module" module-name="Hybris.assistedserviceyprofileaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.captchaaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.configurablebundleaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.consignmenttrackingaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.customercouponaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.customercouponsamplesaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.customerinterestsaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.customerticketingaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.eventtrackingwsaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.merchandisingaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.merchandisingstorefrontsampledataaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.multicountrysampledataaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.notificationaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.ordermanagementaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.orderselfserviceaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.pcmbackofficesamplesaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.personalizationaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.personalizationsampledataaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.personalizationyprofilesampledataaddon" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+    <orderEntry type="module" module-name="Hybris.profiletagaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.selectivecartsplitlistaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.smarteditaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.stocknotificationaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.textfieldconfiguratortemplateaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.timedaccesspromotionengineaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.timedaccesspromotionenginesamplesaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.xyformssamples" exported="" />
+    <orderEntry type="module" module-name="Hybris.xyformsstorefrontcommons" exported="" />
+    <orderEntry type="module" module-name="Hybris.yacceleratorfacades" exported="" />
+    <orderEntry type="module" module-name="Hybris.ysapproductconfigaddon" exported="" />
+  </component>
+</module>

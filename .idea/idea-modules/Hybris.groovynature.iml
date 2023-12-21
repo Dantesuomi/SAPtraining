@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="name" value="groovynature" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+        <option name="webModule" value="true" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/platform/groovynature/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/platform/groovynature/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/platform/groovynature">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/platform/groovynature/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/platform/groovynature/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/platform/groovynature/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/platform/groovynature/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/platform/groovynature/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/platform/groovynature/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/platform/groovynature/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/platform/groovynature/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/platform/groovynature/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/platform/groovynature/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/platform/groovynature/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/platform/groovynature/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/platform/groovynature/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/platform/groovynature/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/platform/groovynature/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/platform/groovynature/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/platform/groovynature/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../modules/platform/groovynature/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

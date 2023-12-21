@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="deprecated" value="true" />
+        <option name="name" value="subscriptioncockpits" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/subscriptions/deprecated/subscriptioncockpits/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/subscriptions/deprecated/subscriptioncockpits/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/subscriptions/deprecated/subscriptioncockpits">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/subscriptions/deprecated/subscriptioncockpits/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/subscriptions/deprecated/subscriptioncockpits/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/subscriptions/deprecated/subscriptioncockpits/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/subscriptions/deprecated/subscriptioncockpits/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/subscriptions/deprecated/subscriptioncockpits/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/subscriptions/deprecated/subscriptioncockpits/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/subscriptions/deprecated/subscriptioncockpits/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/subscriptions/deprecated/subscriptioncockpits/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/subscriptions/deprecated/subscriptioncockpits/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/subscriptions/deprecated/subscriptioncockpits/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/subscriptions/deprecated/subscriptioncockpits/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/subscriptions/deprecated/subscriptioncockpits/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/subscriptions/deprecated/subscriptioncockpits/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../modules/subscriptions/deprecated/subscriptioncockpits/bin/subscriptioncockpitsserver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/subscriptions/deprecated/subscriptioncockpits/testsrc" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.admincockpit" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+    <orderEntry type="module" module-name="Hybris.productcockpit" exported="" />
+    <orderEntry type="module" module-name="Hybris.subscriptionfacades" exported="" />
+  </component>
+</module>

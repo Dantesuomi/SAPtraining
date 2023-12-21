@@ -1,7 +1,7 @@
 /*
  * ----------------------------------------------------------------
  * --- WARNING: THIS FILE IS GENERATED AND WILL BE OVERWRITTEN! ---
- * --- Generated at 2023. gada 13. dec. 19:03:56                ---
+ * --- Generated at 2023. gada 21. dec. 20:15:53                ---
  * ----------------------------------------------------------------
  *  
  * Copyright (c) 2023 SAP SE or an SAP affiliate company. All rights reserved.
@@ -21,6 +21,7 @@ public class GeneratedTrainingCoreConstants
 		public static final String APPARELPRODUCT = "ApparelProduct".intern();
 		public static final String APPARELSIZEVARIANTPRODUCT = "ApparelSizeVariantProduct".intern();
 		public static final String APPARELSTYLEVARIANTPRODUCT = "ApparelStyleVariantProduct".intern();
+		public static final String BACKINSTOCKSUBSCRIPTION = "BackInStockSubscription".intern();
 		public static final String CARTREMINDERCRONJOB = "CartReminderCronJob".intern();
 		public static final String CUSTOMOFFERSCOMPONENT = "CustomOffersComponent".intern();
 		public static final String ELECTRONICSCOLORVARIANTPRODUCT = "ElectronicsColorVariantProduct".intern();

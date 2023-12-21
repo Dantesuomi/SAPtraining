@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="addon" value="true" />
+        <option name="coreModule" value="true" />
+        <option name="name" value="customerticketingaddon" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/customer-service/customerticketingaddon/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/customer-service/customerticketingaddon/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/customer-service/customerticketingaddon">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/customer-service/customerticketingaddon/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/customer-service/customerticketingaddon/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/customer-service/customerticketingaddon/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/customer-service/customerticketingaddon/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/customer-service/customerticketingaddon/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/customer-service/customerticketingaddon/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/customer-service/customerticketingaddon/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/customer-service/customerticketingaddon/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/customer-service/customerticketingaddon/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/customer-service/customerticketingaddon/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/customer-service/customerticketingaddon/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/customer-service/customerticketingaddon/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/customer-service/customerticketingaddon/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/customer-service/customerticketingaddon/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/customer-service/customerticketingaddon/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/customer-service/customerticketingaddon/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.acceleratorstorefrontcommons" exported="" />
+    <orderEntry type="module" module-name="Hybris.addonsupport" exported="" />
+    <orderEntry type="module" module-name="Hybris.customerticketingfacades" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

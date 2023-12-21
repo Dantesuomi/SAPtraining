@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="addon" value="true" />
+        <option name="coreModule" value="true" />
+        <option name="name" value="entitlementservices" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/entitlements/entitlementservices/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/entitlements/entitlementservices/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/entitlements/entitlementservices">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/entitlements/entitlementservices/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/entitlements/entitlementservices/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/entitlements/entitlementservices/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/entitlements/entitlementservices/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/entitlements/entitlementservices/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/entitlements/entitlementservices/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/entitlements/entitlementservices/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/entitlements/entitlementservices/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/entitlements/entitlementservices/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/entitlements/entitlementservices/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/entitlements/entitlementservices/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/entitlements/entitlementservices/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/entitlements/entitlementservices/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/entitlements/entitlementservices/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/entitlements/entitlementservices/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/entitlements/entitlementservices/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/entitlements/entitlementservices/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../modules/entitlements/entitlementservices/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.addonsupport" exported="" />
+    <orderEntry type="module" module-name="Hybris.commerceservices" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

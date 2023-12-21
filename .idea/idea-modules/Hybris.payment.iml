@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="name" value="payment" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/base-commerce/payment/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/base-commerce/payment/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/base-commerce/payment">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/base-commerce/payment/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/base-commerce/payment/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/base-commerce/payment/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/base-commerce/payment/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/base-commerce/payment/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-commerce/payment/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-commerce/payment/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-commerce/payment/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-commerce/payment/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-commerce/payment/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-commerce/payment/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-commerce/payment/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/base-commerce/payment/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../modules/base-commerce/payment/bin/paymentserver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/base-commerce/payment/testsrc" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.basecommerce" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

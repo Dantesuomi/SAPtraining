@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="name" value="testweb" />
+        <option name="readonly" value="true" />
+        <option name="type" value="EXT" />
+        <option name="webModule" value="true" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../platform/ext/testweb/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../platform/ext/testweb/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../platform/ext/testweb">
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/ext/testweb/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/ext/testweb/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/ext/testweb/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/ext/testweb/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/ext/testweb/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/ext/testweb/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/ext/testweb/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/ext/testweb/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/ext/testweb/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/ext/testweb/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/ext/testweb/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/ext/testweb/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../platform/ext/testweb/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../platform/ext/testweb/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../platform/ext/testweb/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Platform.core" exported="" />
+  </component>
+</module>

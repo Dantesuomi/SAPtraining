@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="name" value="testweb.web" />
+        <option name="readonly" value="true" />
+        <option name="subModuleType" value="WEB" />
+        <option name="type" value="EXT" />
+        <option name="webModule" value="true" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../platform/ext/testweb/web/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../platform/ext/testweb/web/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../platform/ext/testweb/web">
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/ext/testweb/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/ext/testweb/web/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/ext/testweb/web/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/ext/testweb/web/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/ext/testweb/web/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/ext/testweb/web/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/ext/testweb/web/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/ext/testweb/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/ext/testweb/web/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/ext/testweb/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/ext/testweb/web/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/ext/testweb/web/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/ext/testweb/web/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/ext/testweb/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="testweb.web - Web Classes">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../platform/ext/testweb/web/webroot/WEB-INF/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="testweb.web - Web Library">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../platform/ext/testweb/web/webroot/WEB-INF/lib" />
+          <root url="jar://$MODULE_DIR$/../../../platform/ext/testweb/web/webroot/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.5.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../platform/ext/testweb/web/webroot/WEB-INF/lib/sitemesh-3.0-alpha-2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../platform/ext/testweb/web/webroot/WEB-INF/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Platform.testweb" exported="" />
+  </component>
+</module>

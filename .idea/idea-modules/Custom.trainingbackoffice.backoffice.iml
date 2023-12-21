@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="backofficeModule" value="true" />
+        <option name="coreModule" value="true" />
+        <option name="name" value="trainingbackoffice.backoffice" />
+        <option name="subModuleType" value="BACKOFFICE" />
+        <option name="type" value="CUSTOM" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../training/trainingbackoffice/backoffice/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../training/trainingbackoffice/backoffice/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../training/trainingbackoffice/backoffice">
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingbackoffice/backoffice/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingbackoffice/backoffice/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingbackoffice/backoffice/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingbackoffice/backoffice/kotlinsrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingbackoffice/backoffice/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingbackoffice/backoffice/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingbackoffice/backoffice/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingbackoffice/backoffice/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingbackoffice/backoffice/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingbackoffice/backoffice/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingbackoffice/backoffice/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingbackoffice/backoffice/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingbackoffice/backoffice/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingbackoffice/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingbackoffice/backoffice/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingbackoffice/backoffice/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingbackoffice/backoffice/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingbackoffice/backoffice/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Hybris.acceleratorbackoffice.backoffice" exported="" />
+    <orderEntry type="module" module-name="Custom.trainingbackoffice" exported="" />
+  </component>
+</module>

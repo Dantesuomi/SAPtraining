@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="name" value="extensiontraining2" />
+        <option name="type" value="CUSTOM" />
+        <option name="webModule" value="true" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../training/extensiontraining2/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../training/extensiontraining2/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../training/extensiontraining2">
+      <sourceFolder url="file://$MODULE_DIR$/../../training/extensiontraining2/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/extensiontraining2/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/extensiontraining2/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/extensiontraining2/kotlinsrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/extensiontraining2/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/extensiontraining2/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/extensiontraining2/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/extensiontraining2/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/extensiontraining2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/extensiontraining2/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/extensiontraining2/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/extensiontraining2/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/extensiontraining2/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/extensiontraining2/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/extensiontraining2/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/extensiontraining2/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/extensiontraining2/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/extensiontraining2/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../training/extensiontraining2/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../training/extensiontraining2/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

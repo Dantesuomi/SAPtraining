@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="addon" value="true" />
+        <option name="classPathGen" value="false" />
+        <option name="coreModule" value="true" />
+        <option name="name" value="profiletagaddon" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/cds-integration/profiletagaddon/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/cds-integration/profiletagaddon/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/cds-integration/profiletagaddon">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/cds-integration/profiletagaddon/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/cds-integration/profiletagaddon/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/cds-integration/profiletagaddon/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/cds-integration/profiletagaddon/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/cds-integration/profiletagaddon/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/cds-integration/profiletagaddon/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/cds-integration/profiletagaddon/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/cds-integration/profiletagaddon/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/cds-integration/profiletagaddon/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/cds-integration/profiletagaddon/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/cds-integration/profiletagaddon/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/cds-integration/profiletagaddon/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/cds-integration/profiletagaddon/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/cds-integration/profiletagaddon/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/cds-integration/profiletagaddon/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/cds-integration/profiletagaddon/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.acceleratorstorefrontcommons" exported="" />
+    <orderEntry type="module" module-name="Hybris.addonsupport" exported="" />
+    <orderEntry type="module" module-name="Hybris.cms2" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+    <orderEntry type="module" module-name="Hybris.profileservices" exported="" />
+  </component>
+</module>

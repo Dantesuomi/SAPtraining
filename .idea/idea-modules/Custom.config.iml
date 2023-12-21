@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="name" value="config" />
+        <option name="type" value="CONFIG" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../platform/../../config/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../platform/../../config/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../platform/../../config">
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/../../config/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/../../config/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/../../config/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/../../config/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/../../config/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/../../config/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/../../config/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/../../config/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/../../config/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/../../config/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/../../config/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/../../config/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="Config License">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../platform/../../config/licence" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../platform/../../config/licence" recursive="true" />
+      </library>
+    </orderEntry>
+  </component>
+</module>

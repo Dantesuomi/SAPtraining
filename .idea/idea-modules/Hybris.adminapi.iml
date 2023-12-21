@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="name" value="adminapi" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+        <option name="webModule" value="true" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/platform/adminapi/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/platform/adminapi/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/platform/adminapi">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/platform/adminapi/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/platform/adminapi/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/platform/adminapi/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/platform/adminapi/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/platform/adminapi/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/platform/adminapi/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/platform/adminapi/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/platform/adminapi/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/platform/adminapi/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/platform/adminapi/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/platform/adminapi/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/platform/adminapi/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/platform/adminapi/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../modules/platform/adminapi/bin/adminapiserver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/platform/adminapi/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../modules/platform/adminapi/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

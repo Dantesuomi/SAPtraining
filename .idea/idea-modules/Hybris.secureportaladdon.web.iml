@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="backofficeModule" value="true" />
+        <option name="coreModule" value="true" />
+        <option name="name" value="secureportaladdon.web" />
+        <option name="readonly" value="true" />
+        <option name="subModuleType" value="WEB" />
+        <option name="type" value="OOTB" />
+        <option name="webModule" value="true" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/b2b-accelerator-addons/secureportaladdon/web/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/b2b-accelerator-addons/secureportaladdon/web/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/b2b-accelerator-addons/secureportaladdon/web">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/b2b-accelerator-addons/secureportaladdon/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/b2b-accelerator-addons/secureportaladdon/web/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/b2b-accelerator-addons/secureportaladdon/web/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/b2b-accelerator-addons/secureportaladdon/web/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/b2b-accelerator-addons/secureportaladdon/web/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2b-accelerator-addons/secureportaladdon/web/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2b-accelerator-addons/secureportaladdon/web/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2b-accelerator-addons/secureportaladdon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2b-accelerator-addons/secureportaladdon/web/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2b-accelerator-addons/secureportaladdon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2b-accelerator-addons/secureportaladdon/web/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2b-accelerator-addons/secureportaladdon/web/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2b-accelerator-addons/secureportaladdon/web/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2b-accelerator-addons/secureportaladdon/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="secureportaladdon.web - Web Classes">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/b2b-accelerator-addons/secureportaladdon/web/webroot/WEB-INF/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/b2b-accelerator-addons/secureportaladdon/web/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.secureportaladdon" exported="" />
+  </component>
+</module>

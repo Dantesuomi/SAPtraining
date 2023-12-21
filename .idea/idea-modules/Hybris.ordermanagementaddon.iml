@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="addon" value="true" />
+        <option name="coreModule" value="true" />
+        <option name="name" value="ordermanagementaddon" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementaddon/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementaddon/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementaddon">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementaddon/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementaddon/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementaddon/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementaddon/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementaddon/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementaddon/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementaddon/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementaddon/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementaddon/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementaddon/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementaddon/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementaddon/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementaddon/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementaddon/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementaddon/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementaddon/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.addonsupport" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="addon" value="true" />
+        <option name="coreModule" value="true" />
+        <option name="name" value="textfieldconfiguratortemplateaddon" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/text-field-configurator-template/textfieldconfiguratortemplateaddon/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/text-field-configurator-template/textfieldconfiguratortemplateaddon/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/text-field-configurator-template/textfieldconfiguratortemplateaddon">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/text-field-configurator-template/textfieldconfiguratortemplateaddon/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/text-field-configurator-template/textfieldconfiguratortemplateaddon/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/text-field-configurator-template/textfieldconfiguratortemplateaddon/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/text-field-configurator-template/textfieldconfiguratortemplateaddon/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/text-field-configurator-template/textfieldconfiguratortemplateaddon/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/text-field-configurator-template/textfieldconfiguratortemplateaddon/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/text-field-configurator-template/textfieldconfiguratortemplateaddon/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/text-field-configurator-template/textfieldconfiguratortemplateaddon/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/text-field-configurator-template/textfieldconfiguratortemplateaddon/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/text-field-configurator-template/textfieldconfiguratortemplateaddon/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/text-field-configurator-template/textfieldconfiguratortemplateaddon/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/text-field-configurator-template/textfieldconfiguratortemplateaddon/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/text-field-configurator-template/textfieldconfiguratortemplateaddon/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/text-field-configurator-template/textfieldconfiguratortemplateaddon/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/text-field-configurator-template/textfieldconfiguratortemplateaddon/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/text-field-configurator-template/textfieldconfiguratortemplateaddon/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.acceleratorstorefrontcommons" exported="" />
+    <orderEntry type="module" module-name="Hybris.addonsupport" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+    <orderEntry type="module" module-name="Hybris.textfieldconfiguratortemplatefacades" exported="" />
+  </component>
+</module>

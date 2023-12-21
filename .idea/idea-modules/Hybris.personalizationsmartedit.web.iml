@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="name" value="personalizationsmartedit.web" />
+        <option name="readonly" value="true" />
+        <option name="subModuleType" value="WEB" />
+        <option name="type" value="OOTB" />
+        <option name="webModule" value="true" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/personalization/personalizationsmartedit/web/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/personalization/personalizationsmartedit/web/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/personalization/personalizationsmartedit/web">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/personalization/personalizationsmartedit/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/personalization/personalizationsmartedit/web/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/personalization/personalizationsmartedit/web/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/personalization/personalizationsmartedit/web/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/personalization/personalizationsmartedit/web/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/personalization/personalizationsmartedit/web/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/personalization/personalizationsmartedit/web/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/personalization/personalizationsmartedit/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/personalization/personalizationsmartedit/web/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/personalization/personalizationsmartedit/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/personalization/personalizationsmartedit/web/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/personalization/personalizationsmartedit/web/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/personalization/personalizationsmartedit/web/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/personalization/personalizationsmartedit/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Hybris.personalizationsmartedit" exported="" />
+  </component>
+</module>

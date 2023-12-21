@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="name" value="ordercalculation" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/rule-engine/ordercalculation/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/rule-engine/ordercalculation/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/rule-engine/ordercalculation">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/rule-engine/ordercalculation/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/rule-engine/ordercalculation/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/rule-engine/ordercalculation/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/rule-engine/ordercalculation/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/rule-engine/ordercalculation/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/rule-engine/ordercalculation/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/rule-engine/ordercalculation/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/rule-engine/ordercalculation/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/rule-engine/ordercalculation/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/rule-engine/ordercalculation/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/rule-engine/ordercalculation/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/rule-engine/ordercalculation/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/rule-engine/ordercalculation/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../modules/rule-engine/ordercalculation/bin/ordercalculationserver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/rule-engine/ordercalculation/testsrc" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

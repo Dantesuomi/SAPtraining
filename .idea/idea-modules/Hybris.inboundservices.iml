@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="name" value="inboundservices" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/integration-apis/inboundservices/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/integration-apis/inboundservices/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/integration-apis/inboundservices">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/integration-apis/inboundservices/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/integration-apis/inboundservices/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/integration-apis/inboundservices/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/integration-apis/inboundservices/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/integration-apis/inboundservices/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/integration-apis/inboundservices/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/integration-apis/inboundservices/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/integration-apis/inboundservices/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/integration-apis/inboundservices/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/integration-apis/inboundservices/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/integration-apis/inboundservices/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/integration-apis/inboundservices/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/integration-apis/inboundservices/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/integration-apis/inboundservices/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/integration-apis/inboundservices/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/integration-apis/inboundservices/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/integration-apis/inboundservices/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../modules/integration-apis/inboundservices/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.apiregistryservices" exported="" />
+    <orderEntry type="module" module-name="Hybris.integrationservices" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

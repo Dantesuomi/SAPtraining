@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="name" value="configurablebundleocctests" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/configurable-bundle/configurablebundleocctests/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/configurable-bundle/configurablebundleocctests/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/configurable-bundle/configurablebundleocctests">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/configurable-bundle/configurablebundleocctests/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/configurable-bundle/configurablebundleocctests/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/configurable-bundle/configurablebundleocctests/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/configurable-bundle/configurablebundleocctests/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/configurable-bundle/configurablebundleocctests/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/configurable-bundle/configurablebundleocctests/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/configurable-bundle/configurablebundleocctests/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/configurable-bundle/configurablebundleocctests/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/configurable-bundle/configurablebundleocctests/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/configurable-bundle/configurablebundleocctests/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/configurable-bundle/configurablebundleocctests/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/configurable-bundle/configurablebundleocctests/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/configurable-bundle/configurablebundleocctests/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/configurable-bundle/configurablebundleocctests/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/configurable-bundle/configurablebundleocctests/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/configurable-bundle/configurablebundleocctests/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/configurable-bundle/configurablebundleocctests/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../modules/configurable-bundle/configurablebundleocctests/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.commercewebservicestests" exported="" />
+    <orderEntry type="module" module-name="Hybris.configurablebundleocc" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

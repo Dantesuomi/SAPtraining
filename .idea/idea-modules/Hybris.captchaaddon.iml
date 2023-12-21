@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="addon" value="true" />
+        <option name="backofficeModule" value="true" />
+        <option name="classPathGen" value="false" />
+        <option name="coreModule" value="true" />
+        <option name="name" value="captchaaddon" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/b2c-accelerator-addons/captchaaddon/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/b2c-accelerator-addons/captchaaddon/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/b2c-accelerator-addons/captchaaddon">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/b2c-accelerator-addons/captchaaddon/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/b2c-accelerator-addons/captchaaddon/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/b2c-accelerator-addons/captchaaddon/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/b2c-accelerator-addons/captchaaddon/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/b2c-accelerator-addons/captchaaddon/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2c-accelerator-addons/captchaaddon/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2c-accelerator-addons/captchaaddon/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2c-accelerator-addons/captchaaddon/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2c-accelerator-addons/captchaaddon/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2c-accelerator-addons/captchaaddon/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2c-accelerator-addons/captchaaddon/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2c-accelerator-addons/captchaaddon/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/b2c-accelerator-addons/captchaaddon/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/b2c-accelerator-addons/captchaaddon/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/b2c-accelerator-addons/captchaaddon/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/b2c-accelerator-addons/captchaaddon/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.acceleratorservices" exported="" />
+    <orderEntry type="module" module-name="Hybris.addonsupport" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

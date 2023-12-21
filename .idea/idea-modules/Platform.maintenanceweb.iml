@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="name" value="maintenanceweb" />
+        <option name="readonly" value="true" />
+        <option name="type" value="EXT" />
+        <option name="webModule" value="true" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../platform/ext/maintenanceweb/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../platform/ext/maintenanceweb/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../platform/ext/maintenanceweb">
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/ext/maintenanceweb/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/ext/maintenanceweb/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/ext/maintenanceweb/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/ext/maintenanceweb/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/ext/maintenanceweb/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/ext/maintenanceweb/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/ext/maintenanceweb/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/ext/maintenanceweb/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/ext/maintenanceweb/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/ext/maintenanceweb/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/ext/maintenanceweb/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/ext/maintenanceweb/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../platform/ext/maintenanceweb/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../platform/ext/maintenanceweb/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../platform/ext/maintenanceweb/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Platform.core" exported="" />
+  </component>
+</module>

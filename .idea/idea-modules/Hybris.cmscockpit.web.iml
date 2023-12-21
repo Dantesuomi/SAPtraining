@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="deprecated" value="true" />
+        <option name="name" value="cmscockpit.web" />
+        <option name="readonly" value="true" />
+        <option name="subModuleType" value="WEB" />
+        <option name="type" value="OOTB" />
+        <option name="webModule" value="true" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/web-content-management-system/deprecated/cmscockpit/web/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/web-content-management-system/deprecated/cmscockpit/web/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/web-content-management-system/deprecated/cmscockpit/web">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/deprecated/cmscockpit/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/deprecated/cmscockpit/web/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/deprecated/cmscockpit/web/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/deprecated/cmscockpit/web/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/deprecated/cmscockpit/web/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/deprecated/cmscockpit/web/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/deprecated/cmscockpit/web/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/deprecated/cmscockpit/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/deprecated/cmscockpit/web/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/deprecated/cmscockpit/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/deprecated/cmscockpit/web/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/deprecated/cmscockpit/web/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/deprecated/cmscockpit/web/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/deprecated/cmscockpit/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="cmscockpit.web - Web Classes">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/web-content-management-system/deprecated/cmscockpit/web/webroot/WEB-INF/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.cmscockpit" exported="" />
+  </component>
+</module>

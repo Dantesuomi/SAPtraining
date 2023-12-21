@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="name" value="xyformsservices" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/yforms/xyformsservices/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/yforms/xyformsservices/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/yforms/xyformsservices">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/yforms/xyformsservices/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/yforms/xyformsservices/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/yforms/xyformsservices/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/yforms/xyformsservices/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/yforms/xyformsservices/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/yforms/xyformsservices/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/yforms/xyformsservices/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/yforms/xyformsservices/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/yforms/xyformsservices/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/yforms/xyformsservices/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/yforms/xyformsservices/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/yforms/xyformsservices/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/yforms/xyformsservices/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/yforms/xyformsservices/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/yforms/xyformsservices/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/yforms/xyformsservices/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.acceleratorservices" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

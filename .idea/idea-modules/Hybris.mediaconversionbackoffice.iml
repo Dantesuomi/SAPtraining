@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="backofficeModule" value="true" />
+        <option name="coreModule" value="true" />
+        <option name="name" value="mediaconversionbackoffice" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/backoffice-applications/mediaconversionbackoffice/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/backoffice-applications/mediaconversionbackoffice/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/backoffice-applications/mediaconversionbackoffice">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/backoffice-applications/mediaconversionbackoffice/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/backoffice-applications/mediaconversionbackoffice/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/backoffice-applications/mediaconversionbackoffice/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/backoffice-applications/mediaconversionbackoffice/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/backoffice-applications/mediaconversionbackoffice/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/backoffice-applications/mediaconversionbackoffice/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/backoffice-applications/mediaconversionbackoffice/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/backoffice-applications/mediaconversionbackoffice/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/backoffice-applications/mediaconversionbackoffice/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/backoffice-applications/mediaconversionbackoffice/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/backoffice-applications/mediaconversionbackoffice/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/backoffice-applications/mediaconversionbackoffice/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/backoffice-applications/mediaconversionbackoffice/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../modules/backoffice-applications/mediaconversionbackoffice/bin/mediaconversionbackofficeserver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/backoffice-applications/mediaconversionbackoffice/testsrc" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library name="mediaconversionbackoffice - Backoffice Classes">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/backoffice-applications/mediaconversionbackoffice/backoffice/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.backoffice.web" exported="" />
+    <orderEntry type="module" module-name="Hybris.mediaconversion" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+    <orderEntry type="module" module-name="Hybris.platformbackoffice" exported="" />
+  </component>
+</module>

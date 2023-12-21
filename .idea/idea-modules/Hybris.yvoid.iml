@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="extGenTemplateExtension" value="true" />
+        <option name="name" value="yvoid" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/platform/yvoid/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/platform/yvoid/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/platform/yvoid">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/platform/yvoid/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/platform/yvoid/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/platform/yvoid/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/platform/yvoid/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/platform/yvoid/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/platform/yvoid/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/platform/yvoid/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/platform/yvoid/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/platform/yvoid/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/platform/yvoid/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/platform/yvoid/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/platform/yvoid/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/platform/yvoid/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/platform/yvoid/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/platform/yvoid/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/platform/yvoid/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

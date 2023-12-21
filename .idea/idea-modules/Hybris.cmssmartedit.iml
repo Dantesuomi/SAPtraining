@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="name" value="cmssmartedit" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+        <option name="webModule" value="true" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/smartedit/cmssmartedit/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/smartedit/cmssmartedit/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/smartedit/cmssmartedit">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/smartedit/cmssmartedit/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/smartedit/cmssmartedit/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/smartedit/cmssmartedit/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/smartedit/cmssmartedit/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/smartedit/cmssmartedit/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/smartedit/cmssmartedit/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/smartedit/cmssmartedit/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/smartedit/cmssmartedit/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/smartedit/cmssmartedit/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/smartedit/cmssmartedit/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/smartedit/cmssmartedit/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/smartedit/cmssmartedit/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/smartedit/cmssmartedit/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/smartedit/cmssmartedit/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/smartedit/cmssmartedit/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/smartedit/cmssmartedit/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+    <orderEntry type="module" module-name="Hybris.smartedit" exported="" />
+  </component>
+</module>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="name" value="platform" />
+        <option name="readonly" value="true" />
+        <option name="type" value="PLATFORM" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../platform/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../platform/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../platform">
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/bootstrap/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/bootstrap/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/bootstrap/modelclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/tomcat" />
+      <excludePattern pattern="apache-ant-*" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="Database Drivers">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../platform/lib/dbdriver" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../platform/lib/dbdriver" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Platform.advancedsavedquery" exported="" />
+    <orderEntry type="module" module-name="Platform.catalog" exported="" />
+    <orderEntry type="module" module-name="Platform.comments" exported="" />
+    <orderEntry type="module" module-name="Platform.commons" exported="" />
+    <orderEntry type="module" module-name="Platform.core" exported="" />
+    <orderEntry type="module" module-name="Platform.deliveryzone" exported="" />
+    <orderEntry type="module" module-name="Platform.europe1" exported="" />
+    <orderEntry type="module" module-name="Platform.hac" exported="" />
+    <orderEntry type="module" module-name="Platform.impex" exported="" />
+    <orderEntry type="module" module-name="Platform.maintenanceweb" exported="" />
+    <orderEntry type="module" module-name="Platform.mediaweb" exported="" />
+    <orderEntry type="module" module-name="Platform.oauth2" exported="" />
+    <orderEntry type="module" module-name="Platform.paymentstandard" exported="" />
+    <orderEntry type="module" module-name="Platform.platformservices" exported="" />
+    <orderEntry type="module" module-name="Platform.processing" exported="" />
+    <orderEntry type="module" module-name="Platform.scripting" exported="" />
+    <orderEntry type="module" module-name="Platform.testweb" exported="" />
+    <orderEntry type="module" module-name="Platform.validation" exported="" />
+    <orderEntry type="module" module-name="Platform.workflow" exported="" />
+    <orderEntry type="module" module-name="Custom.config" exported="" />
+  </component>
+</module>

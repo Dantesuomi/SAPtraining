@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="name" value="adminapi.web" />
+        <option name="readonly" value="true" />
+        <option name="subModuleType" value="WEB" />
+        <option name="type" value="OOTB" />
+        <option name="webModule" value="true" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/platform/adminapi/web/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/platform/adminapi/web/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/platform/adminapi/web">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/platform/adminapi/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/platform/adminapi/web/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/platform/adminapi/web/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/platform/adminapi/web/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/platform/adminapi/web/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/platform/adminapi/web/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/platform/adminapi/web/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/platform/adminapi/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/platform/adminapi/web/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/platform/adminapi/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/platform/adminapi/web/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/platform/adminapi/web/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/platform/adminapi/web/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/platform/adminapi/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="adminapi.web - Web Classes">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/platform/adminapi/web/webroot/WEB-INF/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="adminapi.web - Web Library">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/platform/adminapi/web/webroot/WEB-INF/lib" />
+          <root url="jar://$MODULE_DIR$/../../../modules/platform/adminapi/web/webroot/WEB-INF/lib/spring-plugin-core-1.2.0.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../modules/platform/adminapi/web/webroot/WEB-INF/lib/spring-plugin-metadata-1.2.0.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../modules/platform/adminapi/web/webroot/WEB-INF/lib/springfox-core-2.9.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../modules/platform/adminapi/web/webroot/WEB-INF/lib/springfox-schema-2.9.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../modules/platform/adminapi/web/webroot/WEB-INF/lib/springfox-spi-2.9.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../modules/platform/adminapi/web/webroot/WEB-INF/lib/springfox-spring-web-2.9.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../modules/platform/adminapi/web/webroot/WEB-INF/lib/springfox-swagger-common-2.9.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../modules/platform/adminapi/web/webroot/WEB-INF/lib/springfox-swagger-ui-2.10.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../modules/platform/adminapi/web/webroot/WEB-INF/lib/springfox-swagger2-2.9.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../modules/platform/adminapi/web/webroot/WEB-INF/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.adminapi" exported="" />
+  </component>
+</module>

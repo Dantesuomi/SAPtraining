@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="name" value="datahubadapter.web" />
+        <option name="readonly" value="true" />
+        <option name="subModuleType" value="WEB" />
+        <option name="type" value="OOTB" />
+        <option name="webModule" value="true" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/data-hub-adapter/datahubadapter/web/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/data-hub-adapter/datahubadapter/web/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/data-hub-adapter/datahubadapter/web">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/data-hub-adapter/datahubadapter/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/data-hub-adapter/datahubadapter/web/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/data-hub-adapter/datahubadapter/web/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/data-hub-adapter/datahubadapter/web/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/data-hub-adapter/datahubadapter/web/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/data-hub-adapter/datahubadapter/web/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/data-hub-adapter/datahubadapter/web/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/data-hub-adapter/datahubadapter/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/data-hub-adapter/datahubadapter/web/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/data-hub-adapter/datahubadapter/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/data-hub-adapter/datahubadapter/web/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/data-hub-adapter/datahubadapter/web/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/data-hub-adapter/datahubadapter/web/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/data-hub-adapter/datahubadapter/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="datahubadapter.web - Web Library">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/data-hub-adapter/datahubadapter/web/webroot/WEB-INF/lib" />
+          <root url="jar://$MODULE_DIR$/../../../modules/data-hub-adapter/datahubadapter/web/webroot/WEB-INF/lib/cors-filter-1.8.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../modules/data-hub-adapter/datahubadapter/web/webroot/WEB-INF/lib/java-property-utils-1.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../modules/data-hub-adapter/datahubadapter/web/webroot/WEB-INF/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.datahubadapter" exported="" />
+  </component>
+</module>

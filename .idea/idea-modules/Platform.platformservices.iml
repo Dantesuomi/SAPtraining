@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="name" value="platformservices" />
+        <option name="readonly" value="true" />
+        <option name="type" value="EXT" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../platform/ext/platformservices/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../platform/ext/platformservices/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../platform/ext/platformservices">
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/ext/platformservices/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/ext/platformservices/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/ext/platformservices/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/ext/platformservices/kotlinsrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/ext/platformservices/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/ext/platformservices/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/ext/platformservices/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/ext/platformservices/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/ext/platformservices/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../platform/ext/platformservices/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/ext/platformservices/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/ext/platformservices/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/ext/platformservices/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/ext/platformservices/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/ext/platformservices/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/ext/platformservices/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../platform/ext/platformservices/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../platform/ext/platformservices/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../platform/ext/platformservices/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../platform/ext/platformservices/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../platform/ext/platformservices/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../platform/ext/platformservices/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Platform.deliveryzone" exported="" />
+    <orderEntry type="module" module-name="Platform.europe1" exported="" />
+    <orderEntry type="module" module-name="Platform.paymentstandard" exported="" />
+  </component>
+</module>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="addon" value="true" />
+        <option name="coreModule" value="true" />
+        <option name="name" value="assistedservicestorefront" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicestorefront/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicestorefront/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicestorefront">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicestorefront/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicestorefront/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicestorefront/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicestorefront/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicestorefront/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicestorefront/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicestorefront/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicestorefront/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicestorefront/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicestorefront/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicestorefront/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicestorefront/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicestorefront/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicestorefront/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicestorefront/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicestorefront/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.acceleratorstorefrontcommons" exported="" />
+    <orderEntry type="module" module-name="Hybris.addonsupport" exported="" />
+    <orderEntry type="module" module-name="Hybris.assistedservicefacades" exported="" />
+    <orderEntry type="module" module-name="Hybris.cms2" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

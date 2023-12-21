@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="name" value="customerinterestsfacades" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/customer-interest/customerinterestsfacades/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/customer-interest/customerinterestsfacades/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/customer-interest/customerinterestsfacades">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/customer-interest/customerinterestsfacades/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/customer-interest/customerinterestsfacades/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/customer-interest/customerinterestsfacades/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/customer-interest/customerinterestsfacades/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/customer-interest/customerinterestsfacades/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/customer-interest/customerinterestsfacades/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/customer-interest/customerinterestsfacades/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/customer-interest/customerinterestsfacades/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/customer-interest/customerinterestsfacades/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/customer-interest/customerinterestsfacades/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/customer-interest/customerinterestsfacades/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/customer-interest/customerinterestsfacades/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/customer-interest/customerinterestsfacades/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/customer-interest/customerinterestsfacades/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/customer-interest/customerinterestsfacades/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/customer-interest/customerinterestsfacades/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.acceleratorfacades" exported="" />
+    <orderEntry type="module" module-name="Hybris.customerinterestsservices" exported="" />
+    <orderEntry type="module" module-name="Hybris.notificationfacades" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

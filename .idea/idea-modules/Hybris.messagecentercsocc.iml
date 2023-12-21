@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="name" value="messagecentercsocc" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/message-center/messagecentercsocc/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/message-center/messagecentercsocc/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/message-center/messagecentercsocc">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/message-center/messagecentercsocc/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/message-center/messagecentercsocc/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/message-center/messagecentercsocc/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/message-center/messagecentercsocc/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/message-center/messagecentercsocc/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/message-center/messagecentercsocc/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/message-center/messagecentercsocc/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/message-center/messagecentercsocc/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/message-center/messagecentercsocc/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/message-center/messagecentercsocc/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/message-center/messagecentercsocc/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/message-center/messagecentercsocc/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/message-center/messagecentercsocc/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/message-center/messagecentercsocc/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/message-center/messagecentercsocc/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/message-center/messagecentercsocc/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.commercewebservicescommons" exported="" />
+    <orderEntry type="module" module-name="Hybris.messagecentercsfacades" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

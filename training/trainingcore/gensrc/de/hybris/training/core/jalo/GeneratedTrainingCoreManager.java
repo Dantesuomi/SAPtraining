@@ -1,7 +1,7 @@
 /*
  * ----------------------------------------------------------------
  * --- WARNING: THIS FILE IS GENERATED AND WILL BE OVERWRITTEN! ---
- * --- Generated at 2023. gada 13. dec. 19:03:56                ---
+ * --- Generated at 2023. gada 21. dec. 20:15:53                ---
  * ----------------------------------------------------------------
  *  
  * Copyright (c) 2023 SAP SE or an SAP affiliate company. All rights reserved.
@@ -23,6 +23,7 @@ import de.hybris.training.core.constants.TrainingCoreConstants;
 import de.hybris.training.core.jalo.ApparelProduct;
 import de.hybris.training.core.jalo.ApparelSizeVariantProduct;
 import de.hybris.training.core.jalo.ApparelStyleVariantProduct;
+import de.hybris.training.core.jalo.BackInStockSubscription;
 import de.hybris.training.core.jalo.CartReminderCronJob;
 import de.hybris.training.core.jalo.CustomOffersComponent;
 import de.hybris.training.core.jalo.ElectronicsColorVariantProduct;
@@ -141,6 +142,32 @@ public abstract class GeneratedTrainingCoreManager extends Extension
 	public ApparelStyleVariantProduct createApparelStyleVariantProduct(final Map attributeValues)
 	{
 		return createApparelStyleVariantProduct( getSession().getSessionContext(), attributeValues );
+	}
+	
+	public BackInStockSubscription createBackInStockSubscription(final SessionContext ctx, final Map attributeValues)
+	{
+		try
+		{
+			ComposedType type = getTenant().getJaloConnection().getTypeManager().getComposedType( TrainingCoreConstants.TC.BACKINSTOCKSUBSCRIPTION );
+			return (BackInStockSubscription)type.newInstance( ctx, attributeValues );
+		}
+		catch( JaloGenericCreationException e)
+		{
+			final Throwable cause = e.getCause();
+			throw (cause instanceof RuntimeException ?
+			(RuntimeException)cause
+			:
+			new JaloSystemException( cause, cause.getMessage(), e.getErrorCode() ) );
+		}
+		catch( JaloBusinessException e )
+		{
+			throw new JaloSystemException( e ,"error creating BackInStockSubscription : "+e.getMessage(), 0 );
+		}
+	}
+	
+	public BackInStockSubscription createBackInStockSubscription(final Map attributeValues)
+	{
+		return createBackInStockSubscription( getSession().getSessionContext(), attributeValues );
 	}
 	
 	public CartReminderCronJob createCartReminderCronJob(final SessionContext ctx, final Map attributeValues)

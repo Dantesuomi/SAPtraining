@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="backofficeModule" value="true" />
+        <option name="coreModule" value="true" />
+        <option name="name" value="personalizationyprofile" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofile/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofile/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofile">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofile/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofile/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofile/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofile/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofile/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofile/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofile/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofile/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofile/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofile/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofile/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofile/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofile/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofile/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofile/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofile/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.apiregistryservices" exported="" />
+    <orderEntry type="module" module-name="Hybris.personalizationintegration" exported="" />
+    <orderEntry type="module" module-name="Hybris.personalizationintegrationbackoffice" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+    <orderEntry type="module" module-name="Hybris.profileservices" exported="" />
+  </component>
+</module>

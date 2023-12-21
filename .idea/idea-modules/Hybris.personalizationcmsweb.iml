@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="name" value="personalizationcmsweb" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/personalization/personalizationcmsweb/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/personalization/personalizationcmsweb/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/personalization/personalizationcmsweb">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/personalization/personalizationcmsweb/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/personalization/personalizationcmsweb/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/personalization/personalizationcmsweb/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/personalization/personalizationcmsweb/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/personalization/personalizationcmsweb/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/personalization/personalizationcmsweb/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/personalization/personalizationcmsweb/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/personalization/personalizationcmsweb/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/personalization/personalizationcmsweb/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/personalization/personalizationcmsweb/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/personalization/personalizationcmsweb/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/personalization/personalizationcmsweb/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/personalization/personalizationcmsweb/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../modules/personalization/personalizationcmsweb/bin/personalizationcmswebserver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/personalization/personalizationcmsweb/testsrc" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.cms2" exported="" />
+    <orderEntry type="module" module-name="Hybris.cms2lib" exported="" />
+    <orderEntry type="module" module-name="Hybris.personalizationcms" exported="" />
+    <orderEntry type="module" module-name="Hybris.personalizationwebservices" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

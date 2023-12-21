@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="name" value="merchandisingservices" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservices/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservices/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservices">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservices/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservices/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservices/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservices/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservices/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservices/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservices/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservices/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservices/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservices/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservices/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservices/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservices/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservices/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservices/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservices/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.apiregistryservices" exported="" />
+    <orderEntry type="module" module-name="Hybris.basecommerce" exported="" />
+    <orderEntry type="module" module-name="Hybris.commerceservices" exported="" />
+    <orderEntry type="module" module-name="Hybris.deltadetection" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+    <orderEntry type="module" module-name="Hybris.solrfacetsearch" exported="" />
+  </component>
+</module>

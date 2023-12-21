@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="name" value="ordermanagementfacades" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementfacades/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementfacades/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementfacades">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementfacades/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementfacades/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementfacades/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementfacades/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementfacades/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementfacades/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementfacades/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementfacades/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementfacades/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementfacades/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementfacades/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementfacades/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementfacades/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementfacades/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementfacades/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementfacades/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementfacades/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../modules/order-management/ordermanagementfacades/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.commercefacades" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

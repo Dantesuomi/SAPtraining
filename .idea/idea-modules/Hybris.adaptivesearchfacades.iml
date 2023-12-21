@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="name" value="adaptivesearchfacades" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/adaptive-search/adaptivesearchfacades/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/adaptive-search/adaptivesearchfacades/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/adaptive-search/adaptivesearchfacades">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/adaptive-search/adaptivesearchfacades/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/adaptive-search/adaptivesearchfacades/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/adaptive-search/adaptivesearchfacades/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/adaptive-search/adaptivesearchfacades/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/adaptive-search/adaptivesearchfacades/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/adaptive-search/adaptivesearchfacades/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/adaptive-search/adaptivesearchfacades/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/adaptive-search/adaptivesearchfacades/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/adaptive-search/adaptivesearchfacades/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/adaptive-search/adaptivesearchfacades/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/adaptive-search/adaptivesearchfacades/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/adaptive-search/adaptivesearchfacades/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/adaptive-search/adaptivesearchfacades/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../modules/adaptive-search/adaptivesearchfacades/bin/adaptivesearchfacadesserver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/adaptive-search/adaptivesearchfacades/testsrc" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/adaptive-search/adaptivesearchfacades/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../modules/adaptive-search/adaptivesearchfacades/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.adaptivesearch" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

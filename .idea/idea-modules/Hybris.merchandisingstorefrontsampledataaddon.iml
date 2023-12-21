@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="addon" value="true" />
+        <option name="classPathGen" value="false" />
+        <option name="coreModule" value="true" />
+        <option name="name" value="merchandisingstorefrontsampledataaddon" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingstorefrontsampledataaddon/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingstorefrontsampledataaddon/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingstorefrontsampledataaddon">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingstorefrontsampledataaddon/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingstorefrontsampledataaddon/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingstorefrontsampledataaddon/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingstorefrontsampledataaddon/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingstorefrontsampledataaddon/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingstorefrontsampledataaddon/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingstorefrontsampledataaddon/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingstorefrontsampledataaddon/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingstorefrontsampledataaddon/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingstorefrontsampledataaddon/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingstorefrontsampledataaddon/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingstorefrontsampledataaddon/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingstorefrontsampledataaddon/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingstorefrontsampledataaddon/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingstorefrontsampledataaddon/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingstorefrontsampledataaddon/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.acceleratorstorefrontcommons" exported="" />
+    <orderEntry type="module" module-name="Hybris.addonsupport" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

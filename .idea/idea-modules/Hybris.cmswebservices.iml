@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="name" value="cmswebservices" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+        <option name="webModule" value="true" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmswebservices/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmswebservices/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmswebservices">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmswebservices/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmswebservices/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmswebservices/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmswebservices/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmswebservices/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmswebservices/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmswebservices/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmswebservices/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmswebservices/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmswebservices/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmswebservices/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmswebservices/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmswebservices/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmswebservices/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmswebservices/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmswebservices/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmswebservices/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmswebservices/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.cmsfacades" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+    <orderEntry type="module" module-name="Hybris.webservicescommons" exported="" />
+  </component>
+</module>

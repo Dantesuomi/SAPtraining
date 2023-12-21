@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="name" value="warehousingwebservices" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+        <option name="webModule" value="true" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.ordermanagementwebservices" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+    <orderEntry type="module" module-name="Hybris.warehousingfacades" exported="" />
+  </component>
+</module>

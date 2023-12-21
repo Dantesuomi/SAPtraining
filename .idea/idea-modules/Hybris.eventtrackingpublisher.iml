@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="deprecated" value="true" />
+        <option name="name" value="eventtrackingpublisher" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/event-tracking/deprecated/eventtrackingpublisher/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/event-tracking/deprecated/eventtrackingpublisher/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/event-tracking/deprecated/eventtrackingpublisher">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/event-tracking/deprecated/eventtrackingpublisher/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/event-tracking/deprecated/eventtrackingpublisher/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/event-tracking/deprecated/eventtrackingpublisher/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/event-tracking/deprecated/eventtrackingpublisher/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/event-tracking/deprecated/eventtrackingpublisher/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/event-tracking/deprecated/eventtrackingpublisher/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/event-tracking/deprecated/eventtrackingpublisher/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/event-tracking/deprecated/eventtrackingpublisher/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/event-tracking/deprecated/eventtrackingpublisher/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/event-tracking/deprecated/eventtrackingpublisher/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/event-tracking/deprecated/eventtrackingpublisher/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/event-tracking/deprecated/eventtrackingpublisher/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/event-tracking/deprecated/eventtrackingpublisher/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/event-tracking/deprecated/eventtrackingpublisher/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/event-tracking/deprecated/eventtrackingpublisher/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/event-tracking/deprecated/eventtrackingpublisher/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/event-tracking/deprecated/eventtrackingpublisher/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../modules/event-tracking/deprecated/eventtrackingpublisher/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.eventtrackingmodel" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

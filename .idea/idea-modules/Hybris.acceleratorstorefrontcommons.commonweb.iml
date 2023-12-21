@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="classPathGen" value="false" />
+        <option name="coreModule" value="true" />
+        <option name="name" value="acceleratorstorefrontcommons.commonweb" />
+        <option name="readonly" value="true" />
+        <option name="subModuleType" value="COMMON_WEB" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/core-accelerator/acceleratorstorefrontcommons/commonweb/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/core-accelerator/acceleratorstorefrontcommons/commonweb/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/core-accelerator/acceleratorstorefrontcommons/commonweb">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/core-accelerator/acceleratorstorefrontcommons/commonweb/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/core-accelerator/acceleratorstorefrontcommons/commonweb/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/core-accelerator/acceleratorstorefrontcommons/commonweb/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/core-accelerator/acceleratorstorefrontcommons/commonweb/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/core-accelerator/acceleratorstorefrontcommons/commonweb/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/core-accelerator/acceleratorstorefrontcommons/commonweb/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/core-accelerator/acceleratorstorefrontcommons/commonweb/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/core-accelerator/acceleratorstorefrontcommons/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/core-accelerator/acceleratorstorefrontcommons/commonweb/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/core-accelerator/acceleratorstorefrontcommons/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/core-accelerator/acceleratorstorefrontcommons/commonweb/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/core-accelerator/acceleratorstorefrontcommons/commonweb/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/core-accelerator/acceleratorstorefrontcommons/commonweb/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/core-accelerator/acceleratorstorefrontcommons/commonweb/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="acceleratorstorefrontcommons.commonweb - Common Web Library">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/core-accelerator/acceleratorstorefrontcommons/commonweb/webroot/WEB-INF/lib" />
+          <root url="jar://$MODULE_DIR$/../../../modules/core-accelerator/acceleratorstorefrontcommons/commonweb/webroot/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.5.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../modules/core-accelerator/acceleratorstorefrontcommons/commonweb/webroot/WEB-INF/lib/json-taglib-0.4.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../modules/core-accelerator/acceleratorstorefrontcommons/commonweb/webroot/WEB-INF/lib/jsoup-1.11.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../modules/core-accelerator/acceleratorstorefrontcommons/commonweb/webroot/WEB-INF/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.acceleratorstorefrontcommons" exported="" />
+  </component>
+</module>

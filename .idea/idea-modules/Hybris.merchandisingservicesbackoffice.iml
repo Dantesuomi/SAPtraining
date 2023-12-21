@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="backofficeModule" value="true" />
+        <option name="coreModule" value="true" />
+        <option name="name" value="merchandisingservicesbackoffice" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservicesbackoffice/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservicesbackoffice/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservicesbackoffice">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservicesbackoffice/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservicesbackoffice/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservicesbackoffice/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservicesbackoffice/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservicesbackoffice/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservicesbackoffice/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservicesbackoffice/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservicesbackoffice/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservicesbackoffice/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservicesbackoffice/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservicesbackoffice/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservicesbackoffice/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservicesbackoffice/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservicesbackoffice/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservicesbackoffice/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservicesbackoffice/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library name="merchandisingservicesbackoffice - Backoffice Classes">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/cds-merchandising/merchandisingservicesbackoffice/backoffice/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.backoffice.web" exported="" />
+    <orderEntry type="module" module-name="Hybris.merchandisingservices" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+    <orderEntry type="module" module-name="Hybris.solrfacetsearchbackoffice" exported="" />
+  </component>
+</module>

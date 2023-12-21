@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="extGenTemplateExtension" value="true" />
+        <option name="name" value="trainingstorefront" />
+        <option name="type" value="CUSTOM" />
+        <option name="webModule" value="true" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../training/trainingstorefront/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../training/trainingstorefront/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../training/trainingstorefront">
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingstorefront/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingstorefront/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingstorefront/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingstorefront/kotlinsrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingstorefront/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingstorefront/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingstorefront/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingstorefront/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingstorefront/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingstorefront/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingstorefront/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingstorefront/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingstorefront/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingstorefront/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingstorefront/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingstorefront/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingstorefront/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingstorefront/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../training/trainingstorefront/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../training/trainingstorefront/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.acceleratorstorefrontcommons" exported="" />
+    <orderEntry type="module" module-name="Hybris.adaptivesearchsamplesaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.assistedservicecustomerinterestsaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.assistedservicepromotionaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.assistedservicestorefront" exported="" />
+    <orderEntry type="module" module-name="Hybris.assistedserviceyprofileaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.captchaaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.configurablebundleaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.consignmenttrackingaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.customercouponaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.customercouponsamplesaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.customerinterestsaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.customerticketingaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.eventtrackingwsaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.merchandisingaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.merchandisingstorefrontsampledataaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.multicountrysampledataaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.notificationaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.ordermanagementaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.orderselfserviceaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.pcmbackofficesamplesaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.personalizationaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.personalizationsampledataaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.personalizationyprofilesampledataaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.profiletagaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.selectivecartsplitlistaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.smarteditaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.stocknotificationaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.textfieldconfiguratortemplateaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.timedaccesspromotionengineaddon" exported="" />
+    <orderEntry type="module" module-name="Hybris.timedaccesspromotionenginesamplesaddon" exported="" />
+    <orderEntry type="module" module-name="Custom.trainingfacades" exported="" />
+    <orderEntry type="module" module-name="Hybris.xyformssamples" exported="" />
+    <orderEntry type="module" module-name="Hybris.xyformsstorefrontcommons" exported="" />
+    <orderEntry type="module" module-name="Hybris.ysapproductconfigaddon" exported="" />
+  </component>
+</module>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="name" value="notificationfacades" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/notification/notificationfacades/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/notification/notificationfacades/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/notification/notificationfacades">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/notification/notificationfacades/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/notification/notificationfacades/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/notification/notificationfacades/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/notification/notificationfacades/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/notification/notificationfacades/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/notification/notificationfacades/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/notification/notificationfacades/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/notification/notificationfacades/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/notification/notificationfacades/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/notification/notificationfacades/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/notification/notificationfacades/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/notification/notificationfacades/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/notification/notificationfacades/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/notification/notificationfacades/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/notification/notificationfacades/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/notification/notificationfacades/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.notificationservices" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

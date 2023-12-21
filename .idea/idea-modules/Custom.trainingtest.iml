@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="name" value="trainingtest" />
+        <option name="type" value="CUSTOM" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../training/trainingtest/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../training/trainingtest/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../training/trainingtest">
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingtest/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingtest/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingtest/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingtest/kotlinsrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingtest/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingtest/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingtest/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingtest/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingtest/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingtest/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingtest/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingtest/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingtest/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingtest/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingtest/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingtest/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingtest/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingtest/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../training/trainingtest/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../training/trainingtest/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.apparelstore" exported="" />
+    <orderEntry type="module" module-name="Hybris.electronicsstore" exported="" />
+    <orderEntry type="module" module-name="Custom.trainingfacades" exported="" />
+  </component>
+</module>

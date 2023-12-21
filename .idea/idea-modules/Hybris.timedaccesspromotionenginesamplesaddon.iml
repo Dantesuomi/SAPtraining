@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="classPathGen" value="false" />
+        <option name="coreModule" value="true" />
+        <option name="name" value="timedaccesspromotionenginesamplesaddon" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/timed-access-promotion-engine/timedaccesspromotionenginesamplesaddon/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/timed-access-promotion-engine/timedaccesspromotionenginesamplesaddon/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/timed-access-promotion-engine/timedaccesspromotionenginesamplesaddon">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/timed-access-promotion-engine/timedaccesspromotionenginesamplesaddon/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/timed-access-promotion-engine/timedaccesspromotionenginesamplesaddon/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/timed-access-promotion-engine/timedaccesspromotionenginesamplesaddon/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/timed-access-promotion-engine/timedaccesspromotionenginesamplesaddon/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/timed-access-promotion-engine/timedaccesspromotionenginesamplesaddon/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/timed-access-promotion-engine/timedaccesspromotionenginesamplesaddon/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/timed-access-promotion-engine/timedaccesspromotionenginesamplesaddon/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/timed-access-promotion-engine/timedaccesspromotionenginesamplesaddon/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/timed-access-promotion-engine/timedaccesspromotionenginesamplesaddon/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/timed-access-promotion-engine/timedaccesspromotionenginesamplesaddon/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/timed-access-promotion-engine/timedaccesspromotionenginesamplesaddon/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/timed-access-promotion-engine/timedaccesspromotionenginesamplesaddon/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/timed-access-promotion-engine/timedaccesspromotionenginesamplesaddon/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/timed-access-promotion-engine/timedaccesspromotionenginesamplesaddon/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/timed-access-promotion-engine/timedaccesspromotionenginesamplesaddon/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/timed-access-promotion-engine/timedaccesspromotionenginesamplesaddon/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+    <orderEntry type="module" module-name="Hybris.promotionenginesamplesaddon" exported="" />
+  </component>
+</module>

@@ -228,5 +228,27 @@
                 </attributes>
             </itemtype>
         </typegroup>
+        
+       <typegroup name="BackInStockSubscriptions">
+           <itemtype code="BackInStockSubscription" autocreate="true" generate="true"
+               jaloclass="de.hybris.training.core.jalo.BackInStockSubscription">
+               <description>Item to display item that client should be notified about</description>
+               <deployment table="BackInStockSubscriptions" typecode="15123"/>
+                <attributes>
+                    <attribute qualifier="code" type="java.lang.String">
+                        <modifiers read="true" write="true" />
+                        <persistence type="property" />
+                    </attribute>
+                    <attribute qualifier="customerEmail" type="java.lang.String">
+                        <modifiers read="true" write="true" />
+                        <persistence type="property" />
+                    </attribute>
+                    <attribute qualifier="customerName" type="java.lang.String">
+                        <modifiers read="true" write="true" />
+                        <persistence type="property" />
+                    </attribute>
+                </attributes>
+            </itemtype>
+        </typegroup>
     </itemtypes>
 </items>

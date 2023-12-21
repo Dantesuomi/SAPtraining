@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="deprecated" value="true" />
+        <option name="name" value="subscriptionbundlecockpits" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/subscription-bundles/deprecated/subscriptionbundlecockpits/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/subscription-bundles/deprecated/subscriptionbundlecockpits/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/subscription-bundles/deprecated/subscriptionbundlecockpits">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/subscription-bundles/deprecated/subscriptionbundlecockpits/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/subscription-bundles/deprecated/subscriptionbundlecockpits/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/subscription-bundles/deprecated/subscriptionbundlecockpits/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/subscription-bundles/deprecated/subscriptionbundlecockpits/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/subscription-bundles/deprecated/subscriptionbundlecockpits/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/subscription-bundles/deprecated/subscriptionbundlecockpits/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/subscription-bundles/deprecated/subscriptionbundlecockpits/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/subscription-bundles/deprecated/subscriptionbundlecockpits/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/subscription-bundles/deprecated/subscriptionbundlecockpits/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/subscription-bundles/deprecated/subscriptionbundlecockpits/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/subscription-bundles/deprecated/subscriptionbundlecockpits/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/subscription-bundles/deprecated/subscriptionbundlecockpits/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/subscription-bundles/deprecated/subscriptionbundlecockpits/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/subscription-bundles/deprecated/subscriptionbundlecockpits/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/subscription-bundles/deprecated/subscriptionbundlecockpits/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/subscription-bundles/deprecated/subscriptionbundlecockpits/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.configurablebundlecockpits" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+    <orderEntry type="module" module-name="Hybris.subscriptionbundleservices" exported="" />
+    <orderEntry type="module" module-name="Hybris.subscriptioncockpits" exported="" />
+  </component>
+</module>

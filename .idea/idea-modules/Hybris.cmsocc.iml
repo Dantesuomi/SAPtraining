@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="name" value="cmsocc" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmsocc/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmsocc/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmsocc">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmsocc/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmsocc/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmsocc/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmsocc/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmsocc/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmsocc/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmsocc/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmsocc/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmsocc/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmsocc/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmsocc/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmsocc/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmsocc/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmsocc/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmsocc/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/web-content-management-system/cmsocc/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.cmsfacades" exported="" />
+    <orderEntry type="module" module-name="Hybris.commercewebservices" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="extGenTemplateExtension" value="true" />
+        <option name="name" value="ywebservices" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+        <option name="webModule" value="true" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/web-services-commons/ywebservices/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/web-services-commons/ywebservices/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/web-services-commons/ywebservices">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/web-services-commons/ywebservices/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/web-services-commons/ywebservices/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/web-services-commons/ywebservices/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/web-services-commons/ywebservices/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/web-services-commons/ywebservices/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/web-services-commons/ywebservices/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/web-services-commons/ywebservices/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/web-services-commons/ywebservices/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/web-services-commons/ywebservices/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/web-services-commons/ywebservices/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/web-services-commons/ywebservices/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/web-services-commons/ywebservices/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/web-services-commons/ywebservices/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/web-services-commons/ywebservices/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/web-services-commons/ywebservices/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/web-services-commons/ywebservices/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/web-services-commons/ywebservices/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../modules/web-services-commons/ywebservices/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+    <orderEntry type="module" module-name="Hybris.webservicescommons" exported="" />
+  </component>
+</module>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="backofficeModule" value="true" />
+        <option name="coreModule" value="true" />
+        <option name="name" value="outboundsyncbackoffice" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/integration-apis/outboundsyncbackoffice/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/integration-apis/outboundsyncbackoffice/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/integration-apis/outboundsyncbackoffice">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/integration-apis/outboundsyncbackoffice/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/integration-apis/outboundsyncbackoffice/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/integration-apis/outboundsyncbackoffice/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/integration-apis/outboundsyncbackoffice/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/integration-apis/outboundsyncbackoffice/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/integration-apis/outboundsyncbackoffice/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/integration-apis/outboundsyncbackoffice/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/integration-apis/outboundsyncbackoffice/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/integration-apis/outboundsyncbackoffice/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/integration-apis/outboundsyncbackoffice/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/integration-apis/outboundsyncbackoffice/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/integration-apis/outboundsyncbackoffice/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/integration-apis/outboundsyncbackoffice/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/integration-apis/outboundsyncbackoffice/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/integration-apis/outboundsyncbackoffice/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/integration-apis/outboundsyncbackoffice/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library name="outboundsyncbackoffice - Backoffice Classes">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/integration-apis/outboundsyncbackoffice/backoffice/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.apiregistrybackoffice" exported="" />
+    <orderEntry type="module" module-name="Hybris.backoffice.web" exported="" />
+    <orderEntry type="module" module-name="Hybris.integrationbackoffice" exported="" />
+    <orderEntry type="module" module-name="Hybris.outboundsync" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

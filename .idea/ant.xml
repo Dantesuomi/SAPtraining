@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AntConfiguration">
+    <buildFile url="file://$PROJECT_DIR$/../platform/build.xml">
+      <additionalClassPath>
+        <entry dir="file://$PROJECT_DIR$/../platform/lib" />
+        <entry dir="file://$PROJECT_DIR$/../platform/resources/ant/lib" />
+      </additionalClassPath>
+      <antReference name="Apache Ant version 1.10.9" />
+      <maximumStackSize value="128" />
+      <properties>
+        <property name="PLATFORM_HOME" value="C:\hyb\hybris\bin\platform" />
+        <property name="ANT_HOME" value="C:\hyb\hybris\bin\platform\apache-ant" />
+        <property name="ANT_OPTS" value="-Xmx512m -Dfile.encoding=UTF-8" />
+      </properties>
+      <executeOn event="compositeTask" target="[clean,all]" presentableName="[clean,all]" />
+      <executeOn event="compositeTask" target="[clean,customize,all,initialize]" presentableName="[clean,customize,all,initialize]" />
+      <executeOn event="compositeTask" target="[clean,customize,all,production]" presentableName="[clean,customize,all,production]" />
+    </buildFile>
+  </component>
+</project>

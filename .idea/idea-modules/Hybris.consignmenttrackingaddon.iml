@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="addon" value="true" />
+        <option name="coreModule" value="true" />
+        <option name="name" value="consignmenttrackingaddon" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/consignment-tracking/consignmenttrackingaddon/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/consignment-tracking/consignmenttrackingaddon/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/consignment-tracking/consignmenttrackingaddon">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/consignment-tracking/consignmenttrackingaddon/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/consignment-tracking/consignmenttrackingaddon/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/consignment-tracking/consignmenttrackingaddon/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/consignment-tracking/consignmenttrackingaddon/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/consignment-tracking/consignmenttrackingaddon/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/consignment-tracking/consignmenttrackingaddon/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/consignment-tracking/consignmenttrackingaddon/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/consignment-tracking/consignmenttrackingaddon/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/consignment-tracking/consignmenttrackingaddon/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/consignment-tracking/consignmenttrackingaddon/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/consignment-tracking/consignmenttrackingaddon/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/consignment-tracking/consignmenttrackingaddon/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/consignment-tracking/consignmenttrackingaddon/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/consignment-tracking/consignmenttrackingaddon/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/consignment-tracking/consignmenttrackingaddon/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/consignment-tracking/consignmenttrackingaddon/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.acceleratorstorefrontcommons" exported="" />
+    <orderEntry type="module" module-name="Hybris.addonsupport" exported="" />
+    <orderEntry type="module" module-name="Hybris.consignmenttrackingfacades" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

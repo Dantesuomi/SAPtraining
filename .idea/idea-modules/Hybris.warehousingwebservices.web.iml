@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="name" value="warehousingwebservices.web" />
+        <option name="readonly" value="true" />
+        <option name="subModuleType" value="WEB" />
+        <option name="type" value="OOTB" />
+        <option name="webModule" value="true" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/web/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/web/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/web">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/web/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/web/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/web/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/web/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/web/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/web/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/web/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/web/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/web/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/web/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="warehousingwebservices.web - Web Classes">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/web/webroot/WEB-INF/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/web/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="warehousingwebservices.web - Web Library">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/web/webroot/WEB-INF/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../modules/order-management/warehousingwebservices/web/webroot/WEB-INF/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.warehousingwebservices" exported="" />
+  </component>
+</module>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="name" value="traininginitialdata" />
+        <option name="type" value="CUSTOM" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../training/traininginitialdata/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../training/traininginitialdata/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../training/traininginitialdata">
+      <sourceFolder url="file://$MODULE_DIR$/../../training/traininginitialdata/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/traininginitialdata/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/traininginitialdata/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/traininginitialdata/kotlinsrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/traininginitialdata/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/traininginitialdata/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/traininginitialdata/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/traininginitialdata/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/traininginitialdata/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/traininginitialdata/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/traininginitialdata/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/traininginitialdata/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/traininginitialdata/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/traininginitialdata/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/traininginitialdata/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/traininginitialdata/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/traininginitialdata/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/traininginitialdata/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../training/traininginitialdata/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../training/traininginitialdata/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Custom.trainingcore" exported="" />
+  </component>
+</module>

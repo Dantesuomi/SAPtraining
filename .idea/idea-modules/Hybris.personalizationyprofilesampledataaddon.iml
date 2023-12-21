@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="addon" value="true" />
+        <option name="coreModule" value="true" />
+        <option name="name" value="personalizationyprofilesampledataaddon" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofilesampledataaddon/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofilesampledataaddon/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofilesampledataaddon">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofilesampledataaddon/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofilesampledataaddon/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofilesampledataaddon/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofilesampledataaddon/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofilesampledataaddon/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofilesampledataaddon/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofilesampledataaddon/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofilesampledataaddon/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofilesampledataaddon/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofilesampledataaddon/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofilesampledataaddon/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofilesampledataaddon/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofilesampledataaddon/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofilesampledataaddon/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofilesampledataaddon/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/personalization-integration/personalizationyprofilesampledataaddon/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.addonsupport" exported="" />
+    <orderEntry type="module" module-name="Hybris.personalizationyprofile" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

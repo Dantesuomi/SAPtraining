@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="name" value="trainingfacades" />
+        <option name="type" value="CUSTOM" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../training/trainingfacades/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../training/trainingfacades/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../training/trainingfacades">
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingfacades/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingfacades/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingfacades/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingfacades/kotlinsrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingfacades/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingfacades/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingfacades/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingfacades/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingfacades/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../training/trainingfacades/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingfacades/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingfacades/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingfacades/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingfacades/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingfacades/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingfacades/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingfacades/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../training/trainingfacades/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../training/trainingfacades/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../training/trainingfacades/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.acceleratorfacades" exported="" />
+    <orderEntry type="module" module-name="Custom.trainingcore" exported="" />
+  </component>
+</module>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="extGenTemplateExtension" value="true" />
+        <option name="moduleGenName" value="accelerator" />
+        <option name="name" value="yacceleratorstorefront.web" />
+        <option name="readonly" value="true" />
+        <option name="subModuleType" value="WEB" />
+        <option name="type" value="OOTB" />
+        <option name="webModule" value="true" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/web/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/web/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/web">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/web/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/web/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/web/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/web/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/web/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/web/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/web/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/web/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/web/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/web/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="yacceleratorstorefront.web - Web Classes">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/web/webroot/WEB-INF/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/web/src" />
+          <root url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/web/commonwebsrc/acceleratorstorefrontcommons" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="yacceleratorstorefront.web - Web Library">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/web/webroot/WEB-INF/lib" />
+          <root url="jar://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/web/webroot/WEB-INF/lib/addon-captchaaddon-json-taglib-0.4.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/web/webroot/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.5.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/web/webroot/WEB-INF/lib/json-taglib-0.4.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/web/webroot/WEB-INF/lib/jsoup-1.11.3.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/web/webroot/WEB-INF/lib/rhino-1.7.7.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/web/webroot/WEB-INF/lib/wro4j-core-1.8.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorstorefront/web/webroot/WEB-INF/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.yacceleratorstorefront" exported="" />
+  </component>
+</module>

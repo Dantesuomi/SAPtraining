@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="name" value="assistedservicepromotionfacades" />
+        <option name="readonly" value="true" />
+        <option name="type" value="OOTB" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicepromotionfacades/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicepromotionfacades/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths />
+    <content url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicepromotionfacades">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicepromotionfacades/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicepromotionfacades/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicepromotionfacades/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicepromotionfacades/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicepromotionfacades/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicepromotionfacades/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicepromotionfacades/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicepromotionfacades/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicepromotionfacades/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicepromotionfacades/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicepromotionfacades/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicepromotionfacades/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicepromotionfacades/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicepromotionfacades/gensrc" />
+          <root url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicepromotionfacades/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicepromotionfacades/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicepromotionfacades/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../modules/assisted-services/assistedservicepromotionfacades/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.assistedservicefacades" exported="" />
+    <orderEntry type="module" module-name="Hybris.couponservices" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>
